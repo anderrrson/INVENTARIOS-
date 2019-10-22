@@ -43,6 +43,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -52,7 +53,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -197,6 +197,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Poliza";
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(559, 136);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(87, 20);
+            this.textBox3.TabIndex = 9;
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -211,6 +218,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.label4.Location = new System.Drawing.Point(514, 12);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 16);
@@ -246,7 +254,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(119, 136);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(359, 20);
+            this.textBox1.Size = new System.Drawing.Size(362, 20);
             this.textBox1.TabIndex = 5;
             // 
             // label2
@@ -275,13 +283,6 @@
             this.label3.Size = new System.Drawing.Size(80, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "CONCEPTO";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(559, 136);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(87, 20);
-            this.textBox3.TabIndex = 9;
             // 
             // Poliza
             // 
