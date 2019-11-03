@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{63369475-D174-4738-BEB3-6399A9505280}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaDiseno</RootNamespace>
+    <AssemblyName>CapaDiseno</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CapaDeDiseno">
+      <HintPath>..\..\..\..\Documents\TMP\NAV2K19\DLL\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Frm_Bodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Bodega.Designer.cs">
+      <DependentUpon>Frm_Bodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_MovDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_MovDetalle.Designer.cs">
+      <DependentUpon>Frm_MovDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_MovEncabezado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_MovEncabezado.Designer.cs">
+      <DependentUpon>Frm_MovEncabezado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PolizaInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PolizaInventario.Designer.cs">
+      <DependentUpon>Frm_PolizaInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Producto.Designer.cs">
+      <DependentUpon>Frm_Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ProductoBodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ProductoBodega.Designer.cs">
+      <DependentUpon>Frm_ProductoBodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Sucursal.Designer.cs">
+      <DependentUpon>Frm_Sucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_TipoMovimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_TipoMovimiento.Designer.cs">
+      <DependentUpon>Frm_TipoMovimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_TipoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_TipoProducto.Designer.cs">
+      <DependentUpon>Frm_TipoProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Transporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Transporte.Designer.cs">
+      <DependentUpon>Frm_Transporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Frm_Bodega.resx">
+      <DependentUpon>Frm_Bodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_MovDetalle.resx">
+      <DependentUpon>Frm_MovDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_MovEncabezado.resx">
+      <DependentUpon>Frm_MovEncabezado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PolizaInventario.resx">
+      <DependentUpon>Frm_PolizaInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Producto.resx">
+      <DependentUpon>Frm_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ProductoBodega.resx">
+      <DependentUpon>Frm_ProductoBodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Sucursal.resx">
+      <DependentUpon>Frm_Sucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipoMovimiento.resx">
+      <DependentUpon>Frm_TipoMovimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipoProducto.resx">
+      <DependentUpon>Frm_TipoProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Transporte.resx">
+      <DependentUpon>Frm_Transporte.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
