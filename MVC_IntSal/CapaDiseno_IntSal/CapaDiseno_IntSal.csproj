@@ -36,7 +36,7 @@
       <HintPath>bin\Debug\CapaControl_IntSal.dll</HintPath>
     </Reference>
     <Reference Include="CapaDeDiseno">
-      <HintPath>..\..\..\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\NAV2K19\DLL\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
+      <HintPath>..\..\..\NAV2K19\DLL\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,17 +50,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Integración\IntegracionSaldosInventario.cs">
+    <Compile Include="Integración\Frm_IntegracionSaldosInventario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Integración\IntegracionSaldosInventario.Designer.cs">
-      <DependentUpon>IntegracionSaldosInventario.cs</DependentUpon>
+    <Compile Include="Integración\Frm_IntegracionSaldosInventario.Designer.cs">
+      <DependentUpon>Frm_IntegracionSaldosInventario.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Integración\IntegracionSaldosInventario.resx">
-      <DependentUpon>IntegracionSaldosInventario.cs</DependentUpon>
+    <EmbeddedResource Include="Integración\Frm_IntegracionSaldosInventario.resx">
+      <DependentUpon>Frm_IntegracionSaldosInventario.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
