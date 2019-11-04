@@ -36,11 +36,13 @@
       <HintPath>bin\Debug\CapaControl_MovInv.dll</HintPath>
     </Reference>
     <Reference Include="CapaDeDiseno">
-      <HintPath>..\..\..\..\..\Clase\CAPACITACION NAV\DLL\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
+      <HintPath>..\..\..\NAV2K19\DLL\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -50,7 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Movimientos\Frm_MovimientosInventarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movimientos\Frm_MovimientosInventarios.Designer.cs">
+      <DependentUpon>Frm_MovimientosInventarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Movimientos\Frm_MovimientosInventarios.resx">
+      <DependentUpon>Frm_MovimientosInventarios.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
