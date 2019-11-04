@@ -42,6 +42,8 @@
             this.Cbo_ClienteProveedor = new System.Windows.Forms.ComboBox();
             this.Cbo_Origen = new System.Windows.Forms.ComboBox();
             this.Cbo_Destino = new System.Windows.Forms.ComboBox();
+            this.Lbl_Total = new System.Windows.Forms.Label();
+            this.Txt_Total = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // navegador1
@@ -82,7 +84,7 @@
             // Lbl_Concepto
             // 
             this.Lbl_Concepto.AutoSize = true;
-            this.Lbl_Concepto.Location = new System.Drawing.Point(72, 269);
+            this.Lbl_Concepto.Location = new System.Drawing.Point(72, 274);
             this.Lbl_Concepto.Name = "Lbl_Concepto";
             this.Lbl_Concepto.Size = new System.Drawing.Size(117, 13);
             this.Lbl_Concepto.TabIndex = 4;
@@ -134,7 +136,7 @@
             // 
             // Txt_Concepto
             // 
-            this.Txt_Concepto.Location = new System.Drawing.Point(208, 267);
+            this.Txt_Concepto.Location = new System.Drawing.Point(208, 271);
             this.Txt_Concepto.Multiline = true;
             this.Txt_Concepto.Name = "Txt_Concepto";
             this.Txt_Concepto.Size = new System.Drawing.Size(170, 20);
@@ -143,7 +145,7 @@
             // Cbo_ClienteProveedor
             // 
             this.Cbo_ClienteProveedor.FormattingEnabled = true;
-            this.Cbo_ClienteProveedor.Location = new System.Drawing.Point(614, 269);
+            this.Cbo_ClienteProveedor.Location = new System.Drawing.Point(614, 274);
             this.Cbo_ClienteProveedor.Name = "Cbo_ClienteProveedor";
             this.Cbo_ClienteProveedor.Size = new System.Drawing.Size(166, 21);
             this.Cbo_ClienteProveedor.TabIndex = 11;
@@ -164,11 +166,29 @@
             this.Cbo_Destino.Size = new System.Drawing.Size(166, 21);
             this.Cbo_Destino.TabIndex = 13;
             // 
+            // Lbl_Total
+            // 
+            this.Lbl_Total.AutoSize = true;
+            this.Lbl_Total.Location = new System.Drawing.Point(853, 335);
+            this.Lbl_Total.Name = "Lbl_Total";
+            this.Lbl_Total.Size = new System.Drawing.Size(34, 13);
+            this.Lbl_Total.TabIndex = 14;
+            this.Lbl_Total.Text = "Total:";
+            // 
+            // Txt_Total
+            // 
+            this.Txt_Total.Location = new System.Drawing.Point(923, 339);
+            this.Txt_Total.Name = "Txt_Total";
+            this.Txt_Total.Size = new System.Drawing.Size(166, 20);
+            this.Txt_Total.TabIndex = 15;
+            // 
             // Frm_IntegracionSaldosInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 661);
+            this.Controls.Add(this.Txt_Total);
+            this.Controls.Add(this.Lbl_Total);
             this.Controls.Add(this.Cbo_Destino);
             this.Controls.Add(this.Cbo_Origen);
             this.Controls.Add(this.Cbo_ClienteProveedor);
@@ -206,5 +226,7 @@
         private System.Windows.Forms.ComboBox Cbo_ClienteProveedor;
         private System.Windows.Forms.ComboBox Cbo_Origen;
         private System.Windows.Forms.ComboBox Cbo_Destino;
+        private System.Windows.Forms.Label Lbl_Total;
+        private System.Windows.Forms.TextBox Txt_Total;
     }
 }
