@@ -1,6 +1,6 @@
 ﻿namespace CapaDiseno
 {
-    partial class Frm_TipoMovimiento
+    partial class Frm_MovInventario
     {
         /// <summary>
         /// Required designer variable.
@@ -34,20 +34,21 @@
             // navegador1
             // 
             this.navegador1.BackColor = System.Drawing.Color.White;
-            this.navegador1.Location = new System.Drawing.Point(13, 13);
+            this.navegador1.Location = new System.Drawing.Point(0, 0);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(1178, 657);
             this.navegador1.TabIndex = 0;
-            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
-            // Frm_TipoMovimiento
+            // Frm_MovInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1204, 731);
+            this.ClientSize = new System.Drawing.Size(1179, 658);
             this.Controls.Add(this.navegador1);
-            this.Name = "Frm_TipoMovimiento";
-            this.Text = "Frm_TipoMovimiento";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "Frm_MovInventario";
+            this.Text = "Frm_MovInventario";
+            this.Load += new System.EventHandler(this.Frm_MovInventario_Load);
             this.ResumeLayout(false);
 
         }

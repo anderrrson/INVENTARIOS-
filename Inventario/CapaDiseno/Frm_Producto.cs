@@ -15,7 +15,7 @@ namespace CapaDiseno
         private void inicio()
         {
             navegador1.asignarTabla("tbl_producto");
-            String[] alias = { "Codigo", "Nombre", "Descripcion", "Cantidad", "Precio", "Tipo", "Estado" };
+            String[] alias = { "Código", "Tipo Producto", "Nombre", "Descripción", "Estado" };
             navegador1.asignarAlias(alias);
             navegador1.asignarAyuda("1");
             navegador1.asignarSalida(this);
@@ -23,7 +23,8 @@ namespace CapaDiseno
             navegador1.asignarColorFuente(Color.Black);
             navegador1.asignarNombreForm("Producto");
             navegador1.ObtenerIdAplicacion("1");
-            navegador1.asignarComboConTabla("Tbl_TipoProducto", "nombre", 1);
+            //Asociaciones
+            navegador1.asignarComboConTabla("Tbl_TipoProducto", "tipo_tipoproducto", 1);
         }
 
         private void navegador1_Load(object sender, EventArgs e)

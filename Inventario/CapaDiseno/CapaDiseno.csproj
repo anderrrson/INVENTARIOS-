@@ -34,7 +34,8 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CapaDeDiseno">
+    <Reference Include="CapaDeDiseno, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Documents\TMP\NAV2K19\DLL\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -56,17 +57,29 @@
     <Compile Include="Frm_Bodega.Designer.cs">
       <DependentUpon>Frm_Bodega.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_MovDetalle.cs">
+    <Compile Include="Frm_Existencia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_MovDetalle.Designer.cs">
-      <DependentUpon>Frm_MovDetalle.cs</DependentUpon>
+    <Compile Include="Frm_Existencia.Designer.cs">
+      <DependentUpon>Frm_Existencia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_MovEncabezado.cs">
+    <Compile Include="Frm_HisInventario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_MovEncabezado.Designer.cs">
-      <DependentUpon>Frm_MovEncabezado.cs</DependentUpon>
+    <Compile Include="Frm_HisInventario.Designer.cs">
+      <DependentUpon>Frm_HisInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Marca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Marca.Designer.cs">
+      <DependentUpon>Frm_Marca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_MovInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_MovInventario.Designer.cs">
+      <DependentUpon>Frm_MovInventario.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_PolizaInventario.cs">
       <SubType>Form</SubType>
@@ -74,17 +87,35 @@
     <Compile Include="Frm_PolizaInventario.Designer.cs">
       <DependentUpon>Frm_PolizaInventario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_ProdDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ProdDetalle.Designer.cs">
+      <DependentUpon>Frm_ProdDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ProdMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ProdMarca.Designer.cs">
+      <DependentUpon>Frm_ProdMarca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Producto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_Producto.Designer.cs">
       <DependentUpon>Frm_Producto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_ProductoBodega.cs">
+    <Compile Include="Frm_Inventario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_ProductoBodega.Designer.cs">
-      <DependentUpon>Frm_ProductoBodega.cs</DependentUpon>
+    <Compile Include="Frm_Inventario.Designer.cs">
+      <DependentUpon>Frm_Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Stock.Designer.cs">
+      <DependentUpon>Frm_Stock.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Sucursal.cs">
       <SubType>Form</SubType>
@@ -92,23 +123,17 @@
     <Compile Include="Frm_Sucursal.Designer.cs">
       <DependentUpon>Frm_Sucursal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_TipoMovimiento.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_TipoMovimiento.Designer.cs">
-      <DependentUpon>Frm_TipoMovimiento.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frm_TipoProducto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_TipoProducto.Designer.cs">
       <DependentUpon>Frm_TipoProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Transporte.cs">
+    <Compile Include="Frm_Ubicacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Transporte.Designer.cs">
-      <DependentUpon>Frm_Transporte.cs</DependentUpon>
+    <Compile Include="Frm_Ubicacion.Designer.cs">
+      <DependentUpon>Frm_Ubicacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -116,35 +141,50 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Frm_Bodega.aa-ER.resx">
+      <DependentUpon>Frm_Bodega.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Bodega.resx">
       <DependentUpon>Frm_Bodega.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_MovDetalle.resx">
-      <DependentUpon>Frm_MovDetalle.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Existencia.resx">
+      <DependentUpon>Frm_Existencia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_MovEncabezado.resx">
-      <DependentUpon>Frm_MovEncabezado.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_HisInventario.resx">
+      <DependentUpon>Frm_HisInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Marca.resx">
+      <DependentUpon>Frm_Marca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_MovInventario.resx">
+      <DependentUpon>Frm_MovInventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_PolizaInventario.resx">
       <DependentUpon>Frm_PolizaInventario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ProdDetalle.resx">
+      <DependentUpon>Frm_ProdDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ProdMarca.resx">
+      <DependentUpon>Frm_ProdMarca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Producto.resx">
       <DependentUpon>Frm_Producto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_ProductoBodega.resx">
-      <DependentUpon>Frm_ProductoBodega.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Inventario.resx">
+      <DependentUpon>Frm_Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Stock.resx">
+      <DependentUpon>Frm_Stock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Sucursal.resx">
       <DependentUpon>Frm_Sucursal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_TipoMovimiento.resx">
-      <DependentUpon>Frm_TipoMovimiento.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Frm_TipoProducto.resx">
       <DependentUpon>Frm_TipoProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Transporte.resx">
-      <DependentUpon>Frm_Transporte.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Ubicacion.resx">
+      <DependentUpon>Frm_Ubicacion.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

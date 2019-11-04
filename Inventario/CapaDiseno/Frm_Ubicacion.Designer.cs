@@ -1,6 +1,6 @@
 ﻿namespace CapaDiseno
 {
-    partial class Frm_MovDetalle
+    partial class Frm_Ubicacion
     {
         /// <summary>
         /// Required designer variable.
@@ -34,20 +34,21 @@
             // navegador1
             // 
             this.navegador1.BackColor = System.Drawing.Color.White;
-            this.navegador1.Location = new System.Drawing.Point(13, 13);
+            this.navegador1.Location = new System.Drawing.Point(0, 0);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(1178, 657);
             this.navegador1.TabIndex = 0;
             // 
-            // Frm_MovDetalle
+            // Frm_Ubicacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1209, 749);
+            this.ClientSize = new System.Drawing.Size(1179, 658);
             this.Controls.Add(this.navegador1);
-            this.Name = "Frm_MovDetalle";
-            this.Text = "Frm_MovDetalle";
-            this.Load += new System.EventHandler(this.Frm_MovDetalle_Load);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "Frm_Ubicacion";
+            this.Text = "Frm_Ubicacion";
+            this.Load += new System.EventHandler(this.Frm_Ubicacion_Load);
             this.ResumeLayout(false);
 
         }

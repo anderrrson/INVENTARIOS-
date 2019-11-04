@@ -14,15 +14,17 @@ namespace CapaDiseno
 
         private void inicio()
         {
-            navegador1.asignarTabla("Tbl_Polizas");
-            String[] alias = { "Codigo", "Nombre", "Estado" };
+            navegador1.asignarTabla("Tbl_Poliza");
+            String[] alias = { "Código", "Factura Det", "Descripción", "Fecha", "Monto", "Estado" };
             navegador1.asignarAlias(alias);
             navegador1.asignarAyuda("1");
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.White);
             navegador1.asignarColorFuente(Color.Black);
-            navegador1.asignarNombreForm("Poliza Inventario");
+            navegador1.asignarNombreForm("Póliza Inventario");
             navegador1.ObtenerIdAplicacion("1");
+            //Asociaciones
+            navegador1.asignarComboConTabla("Tbl_Poliza", "cantidad_facturadetalle", 1);
         }
 
         private void Frm_PolizaInventario_Load(object sender, EventArgs e)

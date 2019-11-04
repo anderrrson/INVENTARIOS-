@@ -34,7 +34,7 @@
             // navegador1
             // 
             this.navegador1.BackColor = System.Drawing.Color.White;
-            this.navegador1.Location = new System.Drawing.Point(13, 13);
+            this.navegador1.Location = new System.Drawing.Point(0, 0);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(1178, 657);
             this.navegador1.TabIndex = 0;
@@ -43,8 +43,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1211, 759);
+            this.ClientSize = new System.Drawing.Size(1179, 658);
             this.Controls.Add(this.navegador1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Frm_PolizaInventario";
             this.Text = "Frm_PolizaInventario";
             this.Load += new System.EventHandler(this.Frm_PolizaInventario_Load);

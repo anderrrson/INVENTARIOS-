@@ -1,6 +1,6 @@
 ﻿namespace CapaDiseno
 {
-    partial class Frm_Sucursal
+    partial class Frm_ProdDetalle
     {
         /// <summary>
         /// Required designer variable.
@@ -39,16 +39,16 @@
             this.navegador1.Size = new System.Drawing.Size(1178, 657);
             this.navegador1.TabIndex = 0;
             // 
-            // Frm_Sucursal
+            // Frm_ProdDetalle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1179, 658);
             this.Controls.Add(this.navegador1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Frm_Sucursal";
-            this.Text = "Frm_Sucursal";
-            this.Load += new System.EventHandler(this.Frm_Sucursal_Load);
+            this.Name = "Frm_ProdDetalle";
+            this.Text = "Frm_ProdDetalle";
+            this.Load += new System.EventHandler(this.Frm_ProdDetalle_Load);
             this.ResumeLayout(false);
 
         }

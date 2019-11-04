@@ -1,6 +1,6 @@
 ﻿namespace CapaDiseno
 {
-    partial class Frm_MovEncabezado
+    partial class Frm_ProdMarca
     {
         /// <summary>
         /// Required designer variable.
@@ -34,20 +34,21 @@
             // navegador1
             // 
             this.navegador1.BackColor = System.Drawing.Color.White;
-            this.navegador1.Location = new System.Drawing.Point(13, 13);
+            this.navegador1.Location = new System.Drawing.Point(0, 0);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(1178, 657);
             this.navegador1.TabIndex = 0;
             // 
-            // Frm_MovEncabezado
+            // Frm_ProdMarca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1228, 763);
+            this.ClientSize = new System.Drawing.Size(1179, 658);
             this.Controls.Add(this.navegador1);
-            this.Name = "Frm_MovEncabezado";
-            this.Text = "Frm_MovEncabezado";
-            this.Load += new System.EventHandler(this.Frm_MovEncabezado_Load);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "Frm_ProdMarca";
+            this.Text = "Frm_ProdMarca";
+            this.Load += new System.EventHandler(this.Frm_ProdMarca_Load);
             this.ResumeLayout(false);
 
         }

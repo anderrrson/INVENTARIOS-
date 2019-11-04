@@ -4,34 +4,33 @@ using System.Windows.Forms;
 
 namespace CapaDiseno
 {
-    public partial class Frm_ProductoBodega : Form
+    public partial class Frm_HisInventario : Form
     {
-        public Frm_ProductoBodega()
+        public Frm_HisInventario()
         {
             InitializeComponent();
             inicio();
         }
 
-        private void inicio()
+        public void inicio()
         {
-            navegador1.asignarTabla("Tbl_Producto_Tbl_Bodega");
-            String[] alias = { "Producto", "Bodega", "Stock Min", "Stock Max", "Sucursal", "Transporte", "Estado" };
+            navegador1.asignarTabla("Tbl_Historia_Inventario");
+            String[] alias = { "Producto", "Cód. Movimiento", "Bodega", "Sucursal", "Fecha", "Cantidad", "Estado" };
             navegador1.asignarAlias(alias);
             navegador1.asignarAyuda("1");
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.White);
             navegador1.asignarColorFuente(Color.Black);
-            navegador1.asignarNombreForm("Bodega Producto");
+            navegador1.asignarNombreForm("Historial Inventario");
             navegador1.ObtenerIdAplicacion("1");
-            //asociaciones
+            //Asociaciones
             navegador1.asignarComboConTabla("Tbl_Producto", "nombre_producto", 1);
-            navegador1.asignarComboConTabla("Tbl_Bodega", "nombre_bodega", 1);
-            navegador1.asignarComboConTabla("Tbl_Sucursal", "nombre_sucursal", 1);
-            navegador1.asignarComboConTabla("Tbl_Transporte", "placa_transporte", 1);
-
+            navegador1.asignarComboConTabla("Tbl_Moviemiento_Inventario", "nombre", 1);
+            navegador1.asignarComboConTabla("Tbl_Bodega", "nombre", 1);
+            navegador1.asignarComboConTabla("Tbl_sucursal", "nombre", 1);
         }
 
-        private void Frm_ProductoBodega_Load(object sender, EventArgs e)
+        private void Frm_HisInventario_Load(object sender, EventArgs e)
         {
             string aplicacionActiva = "1";
             navegador1.ObtenerIdUsuario("MiUsuario");

@@ -4,31 +4,31 @@ using System.Windows.Forms;
 
 namespace CapaDiseno
 {
-    public partial class Frm_Bodega : Form
+    public partial class Frm_ProdMarca : Form
     {
-        public Frm_Bodega()
+        public Frm_ProdMarca()
         {
             InitializeComponent();
             inicio();
-
         }
 
-        private void inicio()
+        public void inicio()
         {
-            navegador1.asignarTabla("tbl_bodega");
-            String[] alias = { "Código", "Sucursal", "Nombre", "Descripción", "Dirección", "Stock Máximo", "Stock Mínimo", "Status", "Estado" };
+            navegador1.asignarTabla("Tbl_Producto_Marca");
+            String[] alias = { "Producto", "Marca", "Estado" };
             navegador1.asignarAlias(alias);
             navegador1.asignarAyuda("1");
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.White);
             navegador1.asignarColorFuente(Color.Black);
-            navegador1.asignarNombreForm("Bodega");
+            navegador1.asignarNombreForm("Producto Marca");
             navegador1.ObtenerIdAplicacion("1");
-            //Asociaciones
-            //navegador1.asignarComboConTabla("Tbl_sucursal", "nombre", 1);
+            //Asociacion
+            navegador1.asignarComboConTabla("Tbl_Producto", "nombre_producto", 1);
+            navegador1.asignarComboConTabla("Tbl_Marca", "nombre", 1);
         }
 
-        private void Frm_Bodega_Load(object sender, EventArgs e)
+        private void Frm_ProdMarca_Load(object sender, EventArgs e)
         {
             string aplicacionActiva = "1";
             navegador1.ObtenerIdUsuario("MiUsuario");

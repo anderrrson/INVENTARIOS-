@@ -34,41 +34,65 @@ namespace MODULO
             Frm_Sucursal frm_Sucursal = new Frm_Sucursal();
             frm_Sucursal.Show();
         }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Frm_Transporte frm_Transporte = new Frm_Transporte();
-            frm_Transporte.Show();
-        }
-
+        
         private void button5_Click(object sender, EventArgs e)
         {
-            Frm_ProductoBodega frm_ProductoBodega = new Frm_ProductoBodega();
+            Frm_Inventario frm_ProductoBodega = new Frm_Inventario();
             frm_ProductoBodega.Show();
         }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Frm_TipoMovimiento frm_TipoMovimiento = new Frm_TipoMovimiento();
-            frm_TipoMovimiento.Show();
-        }
-
+        
         private void button7_Click(object sender, EventArgs e)
         {
             Frm_PolizaInventario frm_Poliza = new Frm_PolizaInventario();
             frm_Poliza.Show();
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            Frm_MovEncabezado frm_MovEncabezado = new Frm_MovEncabezado();
-            frm_MovEncabezado.Show();
+            Frm_Stock frm_Stock = new Frm_Stock();
+            frm_Stock.Show();
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void button10_Click(object sender, EventArgs e)
         {
-            Frm_MovDetalle frm_MovDetalle = new Frm_MovDetalle();
-            frm_MovDetalle.Show();
+            Frm_Existencia frm_Existencia = new Frm_Existencia();
+            frm_Existencia.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Frm_Marca frm_Marca = new Frm_Marca();
+            frm_Marca.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Frm_ProdDetalle frm_ProdDetalle = new Frm_ProdDetalle();
+            frm_ProdDetalle.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Frm_Ubicacion frm_Ubicacion = new Frm_Ubicacion();
+            frm_Ubicacion.Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Frm_ProdMarca frm_ProdMarca = new Frm_ProdMarca();
+            frm_ProdMarca.Show();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Frm_MovInventario frm_MovInventario = new Frm_MovInventario();
+            frm_MovInventario.Show();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Frm_HisInventario frm_HisInventario = new Frm_HisInventario();
+            frm_HisInventario.Show();
         }
     }
 }

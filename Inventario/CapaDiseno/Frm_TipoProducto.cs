@@ -15,7 +15,7 @@ namespace CapaDiseno
         private void inicio()
         {
             navegador1.asignarTabla("tbl_tipoproducto");
-            String[] alias = { "Codigo", "Nombre", "Estado" };
+            String[] alias = { "Código", "Nombre", "Descripción", "Estado" };
             navegador1.asignarAlias(alias);
             navegador1.asignarAyuda("1");
             navegador1.asignarSalida(this);

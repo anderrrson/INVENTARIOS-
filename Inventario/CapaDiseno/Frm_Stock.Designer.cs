@@ -1,6 +1,6 @@
 ﻿namespace CapaDiseno
 {
-    partial class Frm_Transporte
+    partial class Frm_Stock
     {
         /// <summary>
         /// Required designer variable.
@@ -34,20 +34,22 @@
             // navegador1
             // 
             this.navegador1.BackColor = System.Drawing.Color.White;
-            this.navegador1.Location = new System.Drawing.Point(13, 13);
+            this.navegador1.Location = new System.Drawing.Point(0, 0);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(1178, 657);
             this.navegador1.TabIndex = 0;
-            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
-            // Frm_Transporte
+            // Frm_Stock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1235, 751);
+            this.ClientSize = new System.Drawing.Size(1179, 658);
             this.Controls.Add(this.navegador1);
-            this.Name = "Frm_Transporte";
-            this.Text = "Frm_Transporte";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "Frm_Stock";
+            this.Text = "Frm_Stock";
+            this.Load += new System.EventHandler(this.Frm_Stock_Load);
             this.ResumeLayout(false);
 
         }
