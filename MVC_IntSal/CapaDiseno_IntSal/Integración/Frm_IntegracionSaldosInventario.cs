@@ -26,5 +26,10 @@ namespace CapaDiseno_IntSal.Integración
         {
 
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
