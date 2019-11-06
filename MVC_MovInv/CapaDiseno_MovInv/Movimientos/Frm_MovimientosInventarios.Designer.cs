@@ -28,292 +28,390 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.navegador1 = new CapaDeDiseno.Navegador();
-            this.Lbl_Codigo = new System.Windows.Forms.Label();
-            this.Lbl_Nombre = new System.Windows.Forms.Label();
-            this.Lbl_Cuenta = new System.Windows.Forms.Label();
-            this.Lbl_Documento = new System.Windows.Forms.Label();
-            this.Gpb_Tipo = new System.Windows.Forms.GroupBox();
-            this.Rdb_Entrada = new System.Windows.Forms.RadioButton();
-            this.Rdb_Salida = new System.Windows.Forms.RadioButton();
-            this.Chk_GeneraCosto = new System.Windows.Forms.CheckBox();
-            this.Chk_InvierteCostoVenta = new System.Windows.Forms.CheckBox();
-            this.Gpb_EnRelacionA = new System.Windows.Forms.GroupBox();
-            this.Rdb_Clientes = new System.Windows.Forms.RadioButton();
-            this.Rdb_Proveedores = new System.Windows.Forms.RadioButton();
-            this.Rdb_Ninguno = new System.Windows.Forms.RadioButton();
-            this.Gpb_Estatus = new System.Windows.Forms.GroupBox();
-            this.Rdb_Habilitado = new System.Windows.Forms.RadioButton();
-            this.Rdb_Deshabilitado = new System.Windows.Forms.RadioButton();
+            this.Fondo = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.Txt_Codigo = new System.Windows.Forms.TextBox();
-            this.Txt_Nombre = new System.Windows.Forms.TextBox();
-            this.Txt_Cuenta = new System.Windows.Forms.TextBox();
-            this.Txt_Documento = new System.Windows.Forms.TextBox();
-            this.Gpb_Tipo.SuspendLayout();
-            this.Gpb_EnRelacionA.SuspendLayout();
-            this.Gpb_Estatus.SuspendLayout();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.Dgv_DetalleMovimiento = new System.Windows.Forms.DataGridView();
+            this.CodProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RemoverProd = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Fondo.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv_DetalleMovimiento)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
-            // navegador1
+            // Fondo
             // 
-            this.navegador1.BackColor = System.Drawing.Color.White;
-            this.navegador1.Location = new System.Drawing.Point(0, 0);
-            this.navegador1.Name = "navegador1";
-            this.navegador1.Size = new System.Drawing.Size(1178, 657);
-            this.navegador1.TabIndex = 0;
+            this.Fondo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(86)))), ((int)(((byte)(64)))));
+            this.Fondo.Controls.Add(this.panel2);
+            this.Fondo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Fondo.Location = new System.Drawing.Point(0, 0);
+            this.Fondo.Name = "Fondo";
+            this.Fondo.Size = new System.Drawing.Size(950, 753);
+            this.Fondo.TabIndex = 0;
             // 
-            // Lbl_Codigo
+            // panel2
             // 
-            this.Lbl_Codigo.AutoSize = true;
-            this.Lbl_Codigo.Location = new System.Drawing.Point(38, 183);
-            this.Lbl_Codigo.Name = "Lbl_Codigo";
-            this.Lbl_Codigo.Size = new System.Drawing.Size(43, 13);
-            this.Lbl_Codigo.TabIndex = 1;
-            this.Lbl_Codigo.Text = "Código:";
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.panel6);
+            this.panel2.Location = new System.Drawing.Point(12, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(926, 729);
+            this.panel2.TabIndex = 0;
             // 
-            // Lbl_Nombre
+            // panel1
             // 
-            this.Lbl_Nombre.AutoSize = true;
-            this.Lbl_Nombre.Location = new System.Drawing.Point(38, 216);
-            this.Lbl_Nombre.Name = "Lbl_Nombre";
-            this.Lbl_Nombre.Size = new System.Drawing.Size(47, 13);
-            this.Lbl_Nombre.TabIndex = 2;
-            this.Lbl_Nombre.Text = "Nombre:";
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.Txt_Codigo);
+            this.panel1.Controls.Add(this.groupBox1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 88);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(926, 154);
+            this.panel1.TabIndex = 0;
             // 
-            // Lbl_Cuenta
+            // comboBox2
             // 
-            this.Lbl_Cuenta.AutoSize = true;
-            this.Lbl_Cuenta.Location = new System.Drawing.Point(41, 253);
-            this.Lbl_Cuenta.Name = "Lbl_Cuenta";
-            this.Lbl_Cuenta.Size = new System.Drawing.Size(44, 13);
-            this.Lbl_Cuenta.TabIndex = 3;
-            this.Lbl_Cuenta.Text = "Cuenta:";
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(767, 80);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(130, 21);
+            this.comboBox2.TabIndex = 19;
             // 
-            // Lbl_Documento
+            // label1
             // 
-            this.Lbl_Documento.AutoSize = true;
-            this.Lbl_Documento.Location = new System.Drawing.Point(386, 253);
-            this.Lbl_Documento.Name = "Lbl_Documento";
-            this.Lbl_Documento.Size = new System.Drawing.Size(65, 13);
-            this.Lbl_Documento.TabIndex = 4;
-            this.Lbl_Documento.Text = "Documento:";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label1.Location = new System.Drawing.Point(29, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 17);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Codigo:";
             // 
-            // Gpb_Tipo
+            // comboBox1
             // 
-            this.Gpb_Tipo.Controls.Add(this.Rdb_Salida);
-            this.Gpb_Tipo.Controls.Add(this.Rdb_Entrada);
-            this.Gpb_Tipo.Location = new System.Drawing.Point(44, 292);
-            this.Gpb_Tipo.Name = "Gpb_Tipo";
-            this.Gpb_Tipo.Size = new System.Drawing.Size(288, 56);
-            this.Gpb_Tipo.TabIndex = 5;
-            this.Gpb_Tipo.TabStop = false;
-            this.Gpb_Tipo.Text = "Tipo";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(171, 114);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(407, 21);
+            this.comboBox1.TabIndex = 18;
             // 
-            // Rdb_Entrada
+            // label3
             // 
-            this.Rdb_Entrada.AutoSize = true;
-            this.Rdb_Entrada.Location = new System.Drawing.Point(48, 27);
-            this.Rdb_Entrada.Name = "Rdb_Entrada";
-            this.Rdb_Entrada.Size = new System.Drawing.Size(62, 17);
-            this.Rdb_Entrada.TabIndex = 0;
-            this.Rdb_Entrada.TabStop = true;
-            this.Rdb_Entrada.Text = "Entrada";
-            this.Rdb_Entrada.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label3.Location = new System.Drawing.Point(29, 69);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(72, 17);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Concepto:";
             // 
-            // Rdb_Salida
+            // textBox1
             // 
-            this.Rdb_Salida.AutoSize = true;
-            this.Rdb_Salida.Location = new System.Drawing.Point(180, 27);
-            this.Rdb_Salida.Name = "Rdb_Salida";
-            this.Rdb_Salida.Size = new System.Drawing.Size(54, 17);
-            this.Rdb_Salida.TabIndex = 1;
-            this.Rdb_Salida.TabStop = true;
-            this.Rdb_Salida.Text = "Salida";
-            this.Rdb_Salida.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(171, 68);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(407, 20);
+            this.textBox1.TabIndex = 17;
             // 
-            // Chk_GeneraCosto
+            // label4
             // 
-            this.Chk_GeneraCosto.AutoSize = true;
-            this.Chk_GeneraCosto.Location = new System.Drawing.Point(389, 292);
-            this.Chk_GeneraCosto.Name = "Chk_GeneraCosto";
-            this.Chk_GeneraCosto.Size = new System.Drawing.Size(91, 17);
-            this.Chk_GeneraCosto.TabIndex = 6;
-            this.Chk_GeneraCosto.Text = "Genera Costo";
-            this.Chk_GeneraCosto.UseVisualStyleBackColor = true;
-            // 
-            // Chk_InvierteCostoVenta
-            // 
-            this.Chk_InvierteCostoVenta.AutoSize = true;
-            this.Chk_InvierteCostoVenta.Location = new System.Drawing.Point(389, 331);
-            this.Chk_InvierteCostoVenta.Name = "Chk_InvierteCostoVenta";
-            this.Chk_InvierteCostoVenta.Size = new System.Drawing.Size(122, 17);
-            this.Chk_InvierteCostoVenta.TabIndex = 7;
-            this.Chk_InvierteCostoVenta.Text = "Invierte Costo Venta";
-            this.Chk_InvierteCostoVenta.UseVisualStyleBackColor = true;
-            // 
-            // Gpb_EnRelacionA
-            // 
-            this.Gpb_EnRelacionA.Controls.Add(this.Rdb_Ninguno);
-            this.Gpb_EnRelacionA.Controls.Add(this.Rdb_Proveedores);
-            this.Gpb_EnRelacionA.Controls.Add(this.Rdb_Clientes);
-            this.Gpb_EnRelacionA.Location = new System.Drawing.Point(579, 292);
-            this.Gpb_EnRelacionA.Name = "Gpb_EnRelacionA";
-            this.Gpb_EnRelacionA.Size = new System.Drawing.Size(282, 56);
-            this.Gpb_EnRelacionA.TabIndex = 8;
-            this.Gpb_EnRelacionA.TabStop = false;
-            this.Gpb_EnRelacionA.Text = "En Relación a";
-            // 
-            // Rdb_Clientes
-            // 
-            this.Rdb_Clientes.AutoSize = true;
-            this.Rdb_Clientes.Location = new System.Drawing.Point(15, 27);
-            this.Rdb_Clientes.Name = "Rdb_Clientes";
-            this.Rdb_Clientes.Size = new System.Drawing.Size(62, 17);
-            this.Rdb_Clientes.TabIndex = 0;
-            this.Rdb_Clientes.TabStop = true;
-            this.Rdb_Clientes.Text = "Clientes";
-            this.Rdb_Clientes.UseVisualStyleBackColor = true;
-            this.Rdb_Clientes.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
-            // 
-            // Rdb_Proveedores
-            // 
-            this.Rdb_Proveedores.AutoSize = true;
-            this.Rdb_Proveedores.Location = new System.Drawing.Point(100, 27);
-            this.Rdb_Proveedores.Name = "Rdb_Proveedores";
-            this.Rdb_Proveedores.Size = new System.Drawing.Size(85, 17);
-            this.Rdb_Proveedores.TabIndex = 1;
-            this.Rdb_Proveedores.TabStop = true;
-            this.Rdb_Proveedores.Text = "Proveedores";
-            this.Rdb_Proveedores.UseVisualStyleBackColor = true;
-            // 
-            // Rdb_Ninguno
-            // 
-            this.Rdb_Ninguno.AutoSize = true;
-            this.Rdb_Ninguno.Location = new System.Drawing.Point(208, 27);
-            this.Rdb_Ninguno.Name = "Rdb_Ninguno";
-            this.Rdb_Ninguno.Size = new System.Drawing.Size(65, 17);
-            this.Rdb_Ninguno.TabIndex = 2;
-            this.Rdb_Ninguno.TabStop = true;
-            this.Rdb_Ninguno.Text = "Ninguno";
-            this.Rdb_Ninguno.UseVisualStyleBackColor = true;
-            // 
-            // Gpb_Estatus
-            // 
-            this.Gpb_Estatus.Controls.Add(this.Rdb_Deshabilitado);
-            this.Gpb_Estatus.Controls.Add(this.Rdb_Habilitado);
-            this.Gpb_Estatus.Location = new System.Drawing.Point(906, 292);
-            this.Gpb_Estatus.Name = "Gpb_Estatus";
-            this.Gpb_Estatus.Size = new System.Drawing.Size(222, 56);
-            this.Gpb_Estatus.TabIndex = 9;
-            this.Gpb_Estatus.TabStop = false;
-            this.Gpb_Estatus.Text = "Estatus";
-            // 
-            // Rdb_Habilitado
-            // 
-            this.Rdb_Habilitado.AutoSize = true;
-            this.Rdb_Habilitado.Location = new System.Drawing.Point(15, 27);
-            this.Rdb_Habilitado.Name = "Rdb_Habilitado";
-            this.Rdb_Habilitado.Size = new System.Drawing.Size(72, 17);
-            this.Rdb_Habilitado.TabIndex = 0;
-            this.Rdb_Habilitado.TabStop = true;
-            this.Rdb_Habilitado.Text = "Habilitado";
-            this.Rdb_Habilitado.UseVisualStyleBackColor = true;
-            // 
-            // Rdb_Deshabilitado
-            // 
-            this.Rdb_Deshabilitado.AutoSize = true;
-            this.Rdb_Deshabilitado.Location = new System.Drawing.Point(115, 27);
-            this.Rdb_Deshabilitado.Name = "Rdb_Deshabilitado";
-            this.Rdb_Deshabilitado.Size = new System.Drawing.Size(89, 17);
-            this.Rdb_Deshabilitado.TabIndex = 1;
-            this.Rdb_Deshabilitado.TabStop = true;
-            this.Rdb_Deshabilitado.Text = "Deshabilitado";
-            this.Rdb_Deshabilitado.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label4.Location = new System.Drawing.Point(29, 115);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(133, 17);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Cliente / Proveedor:";
             // 
             // Txt_Codigo
             // 
-            this.Txt_Codigo.Location = new System.Drawing.Point(113, 180);
-            this.Txt_Codigo.Multiline = true;
+            this.Txt_Codigo.Location = new System.Drawing.Point(171, 26);
             this.Txt_Codigo.Name = "Txt_Codigo";
-            this.Txt_Codigo.Size = new System.Drawing.Size(186, 20);
-            this.Txt_Codigo.TabIndex = 10;
+            this.Txt_Codigo.Size = new System.Drawing.Size(407, 20);
+            this.Txt_Codigo.TabIndex = 16;
             // 
-            // Txt_Nombre
+            // groupBox1
             // 
-            this.Txt_Nombre.Location = new System.Drawing.Point(113, 213);
-            this.Txt_Nombre.Multiline = true;
-            this.Txt_Nombre.Name = "Txt_Nombre";
-            this.Txt_Nombre.Size = new System.Drawing.Size(543, 20);
-            this.Txt_Nombre.TabIndex = 11;
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Location = new System.Drawing.Point(606, 17);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(291, 48);
+            this.groupBox1.TabIndex = 14;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Tipo Movimiento";
             // 
-            // Txt_Cuenta
+            // radioButton2
             // 
-            this.Txt_Cuenta.Location = new System.Drawing.Point(113, 250);
-            this.Txt_Cuenta.Name = "Txt_Cuenta";
-            this.Txt_Cuenta.Size = new System.Drawing.Size(186, 20);
-            this.Txt_Cuenta.TabIndex = 12;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(170, 19);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(54, 17);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Salida";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // Txt_Documento
+            // radioButton1
             // 
-            this.Txt_Documento.Location = new System.Drawing.Point(470, 246);
-            this.Txt_Documento.Name = "Txt_Documento";
-            this.Txt_Documento.Size = new System.Drawing.Size(186, 20);
-            this.Txt_Documento.TabIndex = 13;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(41, 19);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(62, 17);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Entrada";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label2.Location = new System.Drawing.Point(603, 81);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(146, 17);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Documento Asociado:";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(926, 88);
+            this.panel5.TabIndex = 2;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel4.Controls.Add(this.button1);
+            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.numericUpDown1);
+            this.panel4.Controls.Add(this.comboBox3);
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.panel3);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(926, 692);
+            this.panel4.TabIndex = 4;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel3.Controls.Add(this.Dgv_DetalleMovimiento);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 335);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(926, 357);
+            this.panel3.TabIndex = 0;
+            // 
+            // Dgv_DetalleMovimiento
+            // 
+            this.Dgv_DetalleMovimiento.AllowUserToAddRows = false;
+            this.Dgv_DetalleMovimiento.AllowUserToDeleteRows = false;
+            this.Dgv_DetalleMovimiento.AllowUserToOrderColumns = true;
+            this.Dgv_DetalleMovimiento.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.Dgv_DetalleMovimiento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dgv_DetalleMovimiento.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.CodProducto,
+            this.Producto,
+            this.Cantidad,
+            this.Precio,
+            this.RemoverProd});
+            this.Dgv_DetalleMovimiento.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Dgv_DetalleMovimiento.Location = new System.Drawing.Point(0, 0);
+            this.Dgv_DetalleMovimiento.Name = "Dgv_DetalleMovimiento";
+            this.Dgv_DetalleMovimiento.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.Dgv_DetalleMovimiento.RowHeadersVisible = false;
+            this.Dgv_DetalleMovimiento.Size = new System.Drawing.Size(926, 357);
+            this.Dgv_DetalleMovimiento.TabIndex = 0;
+            this.Dgv_DetalleMovimiento.SelectionChanged += new System.EventHandler(this.Dgv_DetalleMovimiento_SelectionChanged);
+            // 
+            // CodProducto
+            // 
+            this.CodProducto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.CodProducto.HeaderText = "Codigo Producto";
+            this.CodProducto.Name = "CodProducto";
+            this.CodProducto.ReadOnly = true;
+            this.CodProducto.Width = 102;
+            // 
+            // Producto
+            // 
+            this.Producto.HeaderText = "Producto";
+            this.Producto.Name = "Producto";
+            this.Producto.ReadOnly = true;
+            // 
+            // Cantidad
+            // 
+            this.Cantidad.HeaderText = "Cantidad";
+            this.Cantidad.Name = "Cantidad";
+            this.Cantidad.ReadOnly = true;
+            // 
+            // Precio
+            // 
+            this.Precio.HeaderText = "Precio";
+            this.Precio.Name = "Precio";
+            this.Precio.ReadOnly = true;
+            // 
+            // RemoverProd
+            // 
+            this.RemoverProd.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.RemoverProd.HeaderText = "Remover";
+            this.RemoverProd.Name = "RemoverProd";
+            this.RemoverProd.ReadOnly = true;
+            this.RemoverProd.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.RemoverProd.Width = 56;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel6.Location = new System.Drawing.Point(0, 692);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(926, 37);
+            this.panel6.TabIndex = 3;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label5.Location = new System.Drawing.Point(29, 257);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(69, 17);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Producto:";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(171, 256);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(407, 21);
+            this.comboBox3.TabIndex = 20;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(171, 296);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown1.TabIndex = 21;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label6.Location = new System.Drawing.Point(29, 296);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(68, 17);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Cantidad:";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightGreen;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.button1.Location = new System.Drawing.Point(807, 257);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(70, 56);
+            this.button1.TabIndex = 23;
+            this.button1.Text = "✓";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // Frm_MovimientosInventarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 661);
-            this.Controls.Add(this.Txt_Documento);
-            this.Controls.Add(this.Txt_Cuenta);
-            this.Controls.Add(this.Txt_Nombre);
-            this.Controls.Add(this.Txt_Codigo);
-            this.Controls.Add(this.Gpb_Estatus);
-            this.Controls.Add(this.Gpb_EnRelacionA);
-            this.Controls.Add(this.Chk_InvierteCostoVenta);
-            this.Controls.Add(this.Chk_GeneraCosto);
-            this.Controls.Add(this.Gpb_Tipo);
-            this.Controls.Add(this.Lbl_Documento);
-            this.Controls.Add(this.Lbl_Cuenta);
-            this.Controls.Add(this.Lbl_Nombre);
-            this.Controls.Add(this.Lbl_Codigo);
-            this.Controls.Add(this.navegador1);
+            this.ClientSize = new System.Drawing.Size(950, 753);
+            this.Controls.Add(this.Fondo);
+            this.HelpButton = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Frm_MovimientosInventarios";
-            this.Text = "Frm_MovimientosInventarios";
-            this.Gpb_Tipo.ResumeLayout(false);
-            this.Gpb_Tipo.PerformLayout();
-            this.Gpb_EnRelacionA.ResumeLayout(false);
-            this.Gpb_EnRelacionA.PerformLayout();
-            this.Gpb_Estatus.ResumeLayout(false);
-            this.Gpb_Estatus.PerformLayout();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Movimientos de Inventarios";
+            this.Fondo.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv_DetalleMovimiento)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private CapaDeDiseno.Navegador navegador1;
-        private System.Windows.Forms.Label Lbl_Codigo;
-        private System.Windows.Forms.Label Lbl_Nombre;
-        private System.Windows.Forms.Label Lbl_Cuenta;
-        private System.Windows.Forms.Label Lbl_Documento;
-        private System.Windows.Forms.GroupBox Gpb_Tipo;
-        private System.Windows.Forms.RadioButton Rdb_Salida;
-        private System.Windows.Forms.RadioButton Rdb_Entrada;
-        private System.Windows.Forms.CheckBox Chk_GeneraCosto;
-        private System.Windows.Forms.CheckBox Chk_InvierteCostoVenta;
-        private System.Windows.Forms.GroupBox Gpb_EnRelacionA;
-        private System.Windows.Forms.RadioButton Rdb_Clientes;
-        private System.Windows.Forms.RadioButton Rdb_Ninguno;
-        private System.Windows.Forms.RadioButton Rdb_Proveedores;
-        private System.Windows.Forms.GroupBox Gpb_Estatus;
-        private System.Windows.Forms.RadioButton Rdb_Deshabilitado;
-        private System.Windows.Forms.RadioButton Rdb_Habilitado;
+        private System.Windows.Forms.Panel Fondo;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.DataGridView Dgv_DetalleMovimiento;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox Txt_Codigo;
-        private System.Windows.Forms.TextBox Txt_Nombre;
-        private System.Windows.Forms.TextBox Txt_Cuenta;
-        private System.Windows.Forms.TextBox Txt_Documento;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CodProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Producto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
+        private System.Windows.Forms.DataGridViewButtonColumn RemoverProd;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label5;
     }
 }

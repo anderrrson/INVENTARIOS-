@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaDiseno_MovInv.Movimientos;
 
 namespace MDI_INVENTARIO
 {
@@ -38,6 +39,15 @@ namespace MDI_INVENTARIO
         {
             frm_tipoproducto tipo = new frm_tipoproducto(sIdUsuario);
             tipo.Show();
+
+        }
+
+        private void MovimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_MovimientosInventarios mov = new Frm_MovimientosInventarios();
+            mov.TopLevel = false;
+            mov.Parent = this;
+            mov.Show();
 
         }
     }

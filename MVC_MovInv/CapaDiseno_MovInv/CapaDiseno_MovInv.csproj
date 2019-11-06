@@ -33,10 +33,10 @@
   <ItemGroup>
     <Reference Include="CapaControl_MovInv, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\CapaControl_MovInv.dll</HintPath>
+      <HintPath>..\CapaControl_MovInv\bin\Debug\CapaControl_MovInv.dll</HintPath>
     </Reference>
     <Reference Include="CapaDeDiseno">
-      <HintPath>..\..\..\NAV2K19\DLL\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
+      <HintPath>..\..\..\..\..\Navegador\NAV2K19\DLL\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

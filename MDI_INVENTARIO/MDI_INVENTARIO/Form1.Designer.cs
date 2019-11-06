@@ -38,6 +38,7 @@
             this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vehiculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tipoProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.movimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,6 +59,8 @@
             // 
             // moviemientosInventarioToolStripMenuItem
             // 
+            this.moviemientosInventarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.movimientoToolStripMenuItem});
             this.moviemientosInventarioToolStripMenuItem.Name = "moviemientosInventarioToolStripMenuItem";
             this.moviemientosInventarioToolStripMenuItem.Size = new System.Drawing.Size(167, 20);
             this.moviemientosInventarioToolStripMenuItem.Text = "Moviemientos de Inventario";
@@ -116,6 +119,13 @@
             this.tipoProductosToolStripMenuItem.Text = "Tipo Productos";
             this.tipoProductosToolStripMenuItem.Click += new System.EventHandler(this.tipoProductosToolStripMenuItem_Click);
             // 
+            // movimientoToolStripMenuItem
+            // 
+            this.movimientoToolStripMenuItem.Name = "movimientoToolStripMenuItem";
+            this.movimientoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.movimientoToolStripMenuItem.Text = "Movimiento";
+            this.movimientoToolStripMenuItem.Click += new System.EventHandler(this.MovimientoToolStripMenuItem_Click);
+            // 
             // MDI_INVETARIO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -145,6 +155,7 @@
         private System.Windows.Forms.ToolStripMenuItem productosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem vehiculosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tipoProductosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem movimientoToolStripMenuItem;
     }
 }
 

@@ -27,7 +27,7 @@ namespace MDI_INVENTARIO
             navegador1.asignarColorFondo(Color.Aqua);
             navegador1.asignarColorFuente(Color.BlueViolet);
             navegador1.asignarAyuda("1");
-            navegador1.asignarComboConTabla("tbl_tipoproducto", "tipo_tipoproducto");
+            navegador1.asignarComboConTabla("tbl_tipoproducto", "tipo_tipoproducto", 1);
             navegador1.asignarTabla("tbl_producto");
             navegador1.asignarNombreForm("Producto");
         }
