@@ -6,9 +6,14 @@ namespace CapaDiseno
 {
     public partial class Frm_Producto : Form
     {
-        public Frm_Producto()
+        private String usuario;
+        private String aplicacion;
+
+        public Frm_Producto(String usuario, String aplicacion)
         {
             InitializeComponent();
+            this.usuario = usuario;
+            this.aplicacion = aplicacion;
             inicio();
         }
 
@@ -19,20 +24,18 @@ namespace CapaDiseno
             navegador1.asignarAlias(alias);
             navegador1.asignarAyuda("1");
             navegador1.asignarSalida(this);
-            navegador1.asignarColorFondo(Color.White);
+            navegador1.asignarColorFondo(ColorTranslator.FromHtml("#C05640"));
             navegador1.asignarColorFuente(Color.Black);
             navegador1.asignarNombreForm("Producto");
-            navegador1.ObtenerIdAplicacion("1");
             //Asociaciones
             navegador1.asignarComboConTabla("Tbl_TipoProducto", "tipo_tipoproducto", 1);
         }
 
         private void navegador1_Load(object sender, EventArgs e)
         {
-            string aplicacionActiva = "1";
-            navegador1.ObtenerIdUsuario("MiUsuario");
-            navegador1.botonesYPermisosInicial("MiUsuario", aplicacionActiva);
-            navegador1.ObtenerIdAplicacion(aplicacionActiva);
+            navegador1.ObtenerIdUsuario(usuario);
+            navegador1.ObtenerIdAplicacion(aplicacion);
+            navegador1.botonesYPermisosInicial(usuario, aplicacion);
         }
     }
 }
