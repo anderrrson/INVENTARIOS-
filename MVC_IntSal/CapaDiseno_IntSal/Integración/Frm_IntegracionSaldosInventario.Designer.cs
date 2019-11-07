@@ -28,205 +28,238 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.navegador1 = new CapaDeDiseno.Navegador();
-            this.navegador2 = new CapaDeDiseno.Navegador();
-            this.Lbl_Documento = new System.Windows.Forms.Label();
-            this.Lbl_Tipo = new System.Windows.Forms.Label();
-            this.Lbl_Concepto = new System.Windows.Forms.Label();
-            this.Lbl_ClienteProveedor = new System.Windows.Forms.Label();
-            this.Lbl_Origen = new System.Windows.Forms.Label();
-            this.Lbl_Destino = new System.Windows.Forms.Label();
-            this.Txt_Documento = new System.Windows.Forms.TextBox();
-            this.Txt_Tipo = new System.Windows.Forms.TextBox();
-            this.Txt_Concepto = new System.Windows.Forms.TextBox();
-            this.Cbo_ClienteProveedor = new System.Windows.Forms.ComboBox();
-            this.Cbo_Origen = new System.Windows.Forms.ComboBox();
-            this.Cbo_Destino = new System.Windows.Forms.ComboBox();
-            this.Lbl_Total = new System.Windows.Forms.Label();
-            this.Txt_Total = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.Pnl_Integracion = new System.Windows.Forms.Panel();
+            this.Dgv_Integracion = new System.Windows.Forms.DataGridView();
+            this.Tipo_Movimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad_Movimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad_Inicial = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad_Fin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Lbl_Codigo = new System.Windows.Forms.Label();
+            this.Lbl_Producto = new System.Windows.Forms.Label();
+            this.Lbl_FechaInicio = new System.Windows.Forms.Label();
+            this.Lbl_FechaFin = new System.Windows.Forms.Label();
+            this.Cbo_Codigo = new System.Windows.Forms.ComboBox();
+            this.Cbo_Producto = new System.Windows.Forms.ComboBox();
+            this.Dtp_FechaInicio = new System.Windows.Forms.DateTimePicker();
+            this.Dtp_FechaFin = new System.Windows.Forms.DateTimePicker();
+            this.Lbl_Totales = new System.Windows.Forms.Label();
+            this.Txt_CM = new System.Windows.Forms.TextBox();
+            this.Txt_CF = new System.Windows.Forms.TextBox();
+            this.Lbl_Integracion = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            this.Pnl_Integracion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv_Integracion)).BeginInit();
             this.SuspendLayout();
             // 
-            // navegador1
+            // panel1
             // 
-            this.navegador1.BackColor = System.Drawing.Color.White;
-            this.navegador1.Location = new System.Drawing.Point(80, 602);
-            this.navegador1.Name = "navegador1";
-            this.navegador1.Size = new System.Drawing.Size(1178, 657);
-            this.navegador1.TabIndex = 0;
+            this.panel1.Controls.Add(this.Pnl_Integracion);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(660, 508);
+            this.panel1.TabIndex = 0;
             // 
-            // navegador2
+            // Pnl_Integracion
             // 
-            this.navegador2.BackColor = System.Drawing.Color.White;
-            this.navegador2.Location = new System.Drawing.Point(0, 0);
-            this.navegador2.Name = "navegador2";
-            this.navegador2.Size = new System.Drawing.Size(1178, 657);
-            this.navegador2.TabIndex = 1;
-            this.navegador2.Load += new System.EventHandler(this.navegador2_Load);
+            this.Pnl_Integracion.BackColor = System.Drawing.Color.White;
+            this.Pnl_Integracion.Controls.Add(this.Lbl_Integracion);
+            this.Pnl_Integracion.Controls.Add(this.Txt_CF);
+            this.Pnl_Integracion.Controls.Add(this.Txt_CM);
+            this.Pnl_Integracion.Controls.Add(this.Lbl_Totales);
+            this.Pnl_Integracion.Controls.Add(this.Dtp_FechaFin);
+            this.Pnl_Integracion.Controls.Add(this.Dtp_FechaInicio);
+            this.Pnl_Integracion.Controls.Add(this.Cbo_Producto);
+            this.Pnl_Integracion.Controls.Add(this.Cbo_Codigo);
+            this.Pnl_Integracion.Controls.Add(this.Lbl_FechaFin);
+            this.Pnl_Integracion.Controls.Add(this.Lbl_FechaInicio);
+            this.Pnl_Integracion.Controls.Add(this.Lbl_Producto);
+            this.Pnl_Integracion.Controls.Add(this.Lbl_Codigo);
+            this.Pnl_Integracion.Controls.Add(this.Dgv_Integracion);
+            this.Pnl_Integracion.Location = new System.Drawing.Point(12, 12);
+            this.Pnl_Integracion.Name = "Pnl_Integracion";
+            this.Pnl_Integracion.Size = new System.Drawing.Size(636, 484);
+            this.Pnl_Integracion.TabIndex = 0;
             // 
-            // Lbl_Documento
+            // Dgv_Integracion
             // 
-            this.Lbl_Documento.AutoSize = true;
-            this.Lbl_Documento.Location = new System.Drawing.Point(72, 210);
-            this.Lbl_Documento.Name = "Lbl_Documento";
-            this.Lbl_Documento.Size = new System.Drawing.Size(62, 13);
-            this.Lbl_Documento.TabIndex = 2;
-            this.Lbl_Documento.Text = "Documento";
+            this.Dgv_Integracion.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.Dgv_Integracion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dgv_Integracion.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Tipo_Movimiento,
+            this.Cantidad_Movimiento,
+            this.Cantidad_Inicial,
+            this.Cantidad_Fin});
+            this.Dgv_Integracion.Location = new System.Drawing.Point(0, 187);
+            this.Dgv_Integracion.Name = "Dgv_Integracion";
+            this.Dgv_Integracion.RowHeadersVisible = false;
+            this.Dgv_Integracion.Size = new System.Drawing.Size(636, 221);
+            this.Dgv_Integracion.TabIndex = 0;
             // 
-            // Lbl_Tipo
+            // Tipo_Movimiento
             // 
-            this.Lbl_Tipo.AutoSize = true;
-            this.Lbl_Tipo.Location = new System.Drawing.Point(490, 220);
-            this.Lbl_Tipo.Name = "Lbl_Tipo";
-            this.Lbl_Tipo.Size = new System.Drawing.Size(28, 13);
-            this.Lbl_Tipo.TabIndex = 3;
-            this.Lbl_Tipo.Text = "Tipo";
+            this.Tipo_Movimiento.HeaderText = "Tipo_Movimiento";
+            this.Tipo_Movimiento.Name = "Tipo_Movimiento";
             // 
-            // Lbl_Concepto
+            // Cantidad_Movimiento
             // 
-            this.Lbl_Concepto.AutoSize = true;
-            this.Lbl_Concepto.Location = new System.Drawing.Point(72, 274);
-            this.Lbl_Concepto.Name = "Lbl_Concepto";
-            this.Lbl_Concepto.Size = new System.Drawing.Size(117, 13);
-            this.Lbl_Concepto.TabIndex = 4;
-            this.Lbl_Concepto.Text = "Concepto/Descripción:";
+            this.Cantidad_Movimiento.HeaderText = "Cantidad_Movimiento";
+            this.Cantidad_Movimiento.Name = "Cantidad_Movimiento";
             // 
-            // Lbl_ClienteProveedor
+            // Cantidad_Inicial
             // 
-            this.Lbl_ClienteProveedor.AutoSize = true;
-            this.Lbl_ClienteProveedor.Location = new System.Drawing.Point(490, 278);
-            this.Lbl_ClienteProveedor.Name = "Lbl_ClienteProveedor";
-            this.Lbl_ClienteProveedor.Size = new System.Drawing.Size(96, 13);
-            this.Lbl_ClienteProveedor.TabIndex = 5;
-            this.Lbl_ClienteProveedor.Text = "Cliente/Proveedor:";
+            this.Cantidad_Inicial.HeaderText = "Cantidad_Inicial";
+            this.Cantidad_Inicial.Name = "Cantidad_Inicial";
             // 
-            // Lbl_Origen
+            // Cantidad_Fin
             // 
-            this.Lbl_Origen.AutoSize = true;
-            this.Lbl_Origen.Location = new System.Drawing.Point(72, 346);
-            this.Lbl_Origen.Name = "Lbl_Origen";
-            this.Lbl_Origen.Size = new System.Drawing.Size(41, 13);
-            this.Lbl_Origen.TabIndex = 6;
-            this.Lbl_Origen.Text = "Origen:";
+            this.Cantidad_Fin.HeaderText = "Cantidad_Fin";
+            this.Cantidad_Fin.Name = "Cantidad_Fin";
             // 
-            // Lbl_Destino
+            // Lbl_Codigo
             // 
-            this.Lbl_Destino.AutoSize = true;
-            this.Lbl_Destino.Location = new System.Drawing.Point(490, 335);
-            this.Lbl_Destino.Name = "Lbl_Destino";
-            this.Lbl_Destino.Size = new System.Drawing.Size(46, 13);
-            this.Lbl_Destino.TabIndex = 7;
-            this.Lbl_Destino.Text = "Destino:";
-            this.Lbl_Destino.Click += new System.EventHandler(this.label6_Click);
+            this.Lbl_Codigo.AutoSize = true;
+            this.Lbl_Codigo.Location = new System.Drawing.Point(31, 102);
+            this.Lbl_Codigo.Name = "Lbl_Codigo";
+            this.Lbl_Codigo.Size = new System.Drawing.Size(43, 13);
+            this.Lbl_Codigo.TabIndex = 1;
+            this.Lbl_Codigo.Text = "Código:";
             // 
-            // Txt_Documento
+            // Lbl_Producto
             // 
-            this.Txt_Documento.Location = new System.Drawing.Point(208, 210);
-            this.Txt_Documento.Multiline = true;
-            this.Txt_Documento.Name = "Txt_Documento";
-            this.Txt_Documento.Size = new System.Drawing.Size(170, 20);
-            this.Txt_Documento.TabIndex = 8;
+            this.Lbl_Producto.AutoSize = true;
+            this.Lbl_Producto.Location = new System.Drawing.Point(145, 102);
+            this.Lbl_Producto.Name = "Lbl_Producto";
+            this.Lbl_Producto.Size = new System.Drawing.Size(53, 13);
+            this.Lbl_Producto.TabIndex = 2;
+            this.Lbl_Producto.Text = "Producto:";
             // 
-            // Txt_Tipo
+            // Lbl_FechaInicio
             // 
-            this.Txt_Tipo.Location = new System.Drawing.Point(614, 210);
-            this.Txt_Tipo.Multiline = true;
-            this.Txt_Tipo.Name = "Txt_Tipo";
-            this.Txt_Tipo.Size = new System.Drawing.Size(166, 20);
-            this.Txt_Tipo.TabIndex = 9;
+            this.Lbl_FechaInicio.AutoSize = true;
+            this.Lbl_FechaInicio.Location = new System.Drawing.Point(316, 102);
+            this.Lbl_FechaInicio.Name = "Lbl_FechaInicio";
+            this.Lbl_FechaInicio.Size = new System.Drawing.Size(68, 13);
+            this.Lbl_FechaInicio.TabIndex = 3;
+            this.Lbl_FechaInicio.Text = "Fecha Inicio:";
             // 
-            // Txt_Concepto
+            // Lbl_FechaFin
             // 
-            this.Txt_Concepto.Location = new System.Drawing.Point(208, 271);
-            this.Txt_Concepto.Multiline = true;
-            this.Txt_Concepto.Name = "Txt_Concepto";
-            this.Txt_Concepto.Size = new System.Drawing.Size(170, 20);
-            this.Txt_Concepto.TabIndex = 10;
+            this.Lbl_FechaFin.AutoSize = true;
+            this.Lbl_FechaFin.Location = new System.Drawing.Point(465, 102);
+            this.Lbl_FechaFin.Name = "Lbl_FechaFin";
+            this.Lbl_FechaFin.Size = new System.Drawing.Size(57, 13);
+            this.Lbl_FechaFin.TabIndex = 4;
+            this.Lbl_FechaFin.Text = "Fecha Fin:";
             // 
-            // Cbo_ClienteProveedor
+            // Cbo_Codigo
             // 
-            this.Cbo_ClienteProveedor.FormattingEnabled = true;
-            this.Cbo_ClienteProveedor.Location = new System.Drawing.Point(614, 274);
-            this.Cbo_ClienteProveedor.Name = "Cbo_ClienteProveedor";
-            this.Cbo_ClienteProveedor.Size = new System.Drawing.Size(166, 21);
-            this.Cbo_ClienteProveedor.TabIndex = 11;
+            this.Cbo_Codigo.FormattingEnabled = true;
+            this.Cbo_Codigo.Location = new System.Drawing.Point(34, 130);
+            this.Cbo_Codigo.Name = "Cbo_Codigo";
+            this.Cbo_Codigo.Size = new System.Drawing.Size(71, 21);
+            this.Cbo_Codigo.TabIndex = 5;
             // 
-            // Cbo_Origen
+            // Cbo_Producto
             // 
-            this.Cbo_Origen.FormattingEnabled = true;
-            this.Cbo_Origen.Location = new System.Drawing.Point(208, 338);
-            this.Cbo_Origen.Name = "Cbo_Origen";
-            this.Cbo_Origen.Size = new System.Drawing.Size(170, 21);
-            this.Cbo_Origen.TabIndex = 12;
+            this.Cbo_Producto.FormattingEnabled = true;
+            this.Cbo_Producto.Location = new System.Drawing.Point(148, 130);
+            this.Cbo_Producto.Name = "Cbo_Producto";
+            this.Cbo_Producto.Size = new System.Drawing.Size(126, 21);
+            this.Cbo_Producto.TabIndex = 6;
             // 
-            // Cbo_Destino
+            // Dtp_FechaInicio
             // 
-            this.Cbo_Destino.FormattingEnabled = true;
-            this.Cbo_Destino.Location = new System.Drawing.Point(614, 338);
-            this.Cbo_Destino.Name = "Cbo_Destino";
-            this.Cbo_Destino.Size = new System.Drawing.Size(166, 21);
-            this.Cbo_Destino.TabIndex = 13;
+            this.Dtp_FechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.Dtp_FechaInicio.Location = new System.Drawing.Point(319, 130);
+            this.Dtp_FechaInicio.Name = "Dtp_FechaInicio";
+            this.Dtp_FechaInicio.Size = new System.Drawing.Size(100, 20);
+            this.Dtp_FechaInicio.TabIndex = 7;
             // 
-            // Lbl_Total
+            // Dtp_FechaFin
             // 
-            this.Lbl_Total.AutoSize = true;
-            this.Lbl_Total.Location = new System.Drawing.Point(853, 335);
-            this.Lbl_Total.Name = "Lbl_Total";
-            this.Lbl_Total.Size = new System.Drawing.Size(34, 13);
-            this.Lbl_Total.TabIndex = 14;
-            this.Lbl_Total.Text = "Total:";
+            this.Dtp_FechaFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.Dtp_FechaFin.Location = new System.Drawing.Point(468, 131);
+            this.Dtp_FechaFin.Name = "Dtp_FechaFin";
+            this.Dtp_FechaFin.Size = new System.Drawing.Size(101, 20);
+            this.Dtp_FechaFin.TabIndex = 8;
             // 
-            // Txt_Total
+            // Lbl_Totales
             // 
-            this.Txt_Total.Location = new System.Drawing.Point(923, 339);
-            this.Txt_Total.Name = "Txt_Total";
-            this.Txt_Total.Size = new System.Drawing.Size(166, 20);
-            this.Txt_Total.TabIndex = 15;
+            this.Lbl_Totales.AutoSize = true;
+            this.Lbl_Totales.Location = new System.Drawing.Point(29, 436);
+            this.Lbl_Totales.Name = "Lbl_Totales";
+            this.Lbl_Totales.Size = new System.Drawing.Size(45, 13);
+            this.Lbl_Totales.TabIndex = 9;
+            this.Lbl_Totales.Text = "Totales:";
+            // 
+            // Txt_CM
+            // 
+            this.Txt_CM.Enabled = false;
+            this.Txt_CM.Location = new System.Drawing.Point(161, 429);
+            this.Txt_CM.Name = "Txt_CM";
+            this.Txt_CM.Size = new System.Drawing.Size(158, 20);
+            this.Txt_CM.TabIndex = 10;
+            this.Txt_CM.Text = "Q.";
+            // 
+            // Txt_CF
+            // 
+            this.Txt_CF.Enabled = false;
+            this.Txt_CF.Location = new System.Drawing.Point(483, 429);
+            this.Txt_CF.Name = "Txt_CF";
+            this.Txt_CF.Size = new System.Drawing.Size(150, 20);
+            this.Txt_CF.TabIndex = 11;
+            this.Txt_CF.Text = "Q.";
+            // 
+            // Lbl_Integracion
+            // 
+            this.Lbl_Integracion.AutoSize = true;
+            this.Lbl_Integracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Integracion.Location = new System.Drawing.Point(79, 23);
+            this.Lbl_Integracion.Name = "Lbl_Integracion";
+            this.Lbl_Integracion.Size = new System.Drawing.Size(490, 31);
+            this.Lbl_Integracion.TabIndex = 12;
+            this.Lbl_Integracion.Text = "Integración de Saldos de Inventarios";
             // 
             // Frm_IntegracionSaldosInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 661);
-            this.Controls.Add(this.Txt_Total);
-            this.Controls.Add(this.Lbl_Total);
-            this.Controls.Add(this.Cbo_Destino);
-            this.Controls.Add(this.Cbo_Origen);
-            this.Controls.Add(this.Cbo_ClienteProveedor);
-            this.Controls.Add(this.Txt_Concepto);
-            this.Controls.Add(this.Txt_Tipo);
-            this.Controls.Add(this.Txt_Documento);
-            this.Controls.Add(this.Lbl_Destino);
-            this.Controls.Add(this.Lbl_Origen);
-            this.Controls.Add(this.Lbl_ClienteProveedor);
-            this.Controls.Add(this.Lbl_Concepto);
-            this.Controls.Add(this.Lbl_Tipo);
-            this.Controls.Add(this.Lbl_Documento);
-            this.Controls.Add(this.navegador2);
-            this.Controls.Add(this.navegador1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(86)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(660, 508);
+            this.Controls.Add(this.panel1);
             this.Name = "Frm_IntegracionSaldosInventario";
             this.Text = "IntegracionSaldosInventario";
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(86)))), ((int)(((byte)(64)))));
+            this.panel1.ResumeLayout(false);
+            this.Pnl_Integracion.ResumeLayout(false);
+            this.Pnl_Integracion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv_Integracion)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private CapaDeDiseno.Navegador navegador1;
-        private CapaDeDiseno.Navegador navegador2;
-        private System.Windows.Forms.Label Lbl_Documento;
-        private System.Windows.Forms.Label Lbl_Tipo;
-        private System.Windows.Forms.Label Lbl_Concepto;
-        private System.Windows.Forms.Label Lbl_ClienteProveedor;
-        private System.Windows.Forms.Label Lbl_Origen;
-        private System.Windows.Forms.Label Lbl_Destino;
-        private System.Windows.Forms.TextBox Txt_Documento;
-        private System.Windows.Forms.TextBox Txt_Tipo;
-        private System.Windows.Forms.TextBox Txt_Concepto;
-        private System.Windows.Forms.ComboBox Cbo_ClienteProveedor;
-        private System.Windows.Forms.ComboBox Cbo_Origen;
-        private System.Windows.Forms.ComboBox Cbo_Destino;
-        private System.Windows.Forms.Label Lbl_Total;
-        private System.Windows.Forms.TextBox Txt_Total;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel Pnl_Integracion;
+        private System.Windows.Forms.DateTimePicker Dtp_FechaFin;
+        private System.Windows.Forms.DateTimePicker Dtp_FechaInicio;
+        private System.Windows.Forms.ComboBox Cbo_Producto;
+        private System.Windows.Forms.ComboBox Cbo_Codigo;
+        private System.Windows.Forms.Label Lbl_FechaFin;
+        private System.Windows.Forms.Label Lbl_FechaInicio;
+        private System.Windows.Forms.Label Lbl_Producto;
+        private System.Windows.Forms.Label Lbl_Codigo;
+        private System.Windows.Forms.DataGridView Dgv_Integracion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tipo_Movimiento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Movimiento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Inicial;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Fin;
+        private System.Windows.Forms.TextBox Txt_CF;
+        private System.Windows.Forms.TextBox Txt_CM;
+        private System.Windows.Forms.Label Lbl_Totales;
+        private System.Windows.Forms.Label Lbl_Integracion;
     }
 }
