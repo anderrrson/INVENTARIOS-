@@ -1,9 +1,0 @@
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\MVC_IntSal\bin\Debug\MVC_IntSal.exe.config
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\MVC_IntSal\bin\Debug\MVC_IntSal.exe
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\MVC_IntSal\bin\Debug\MVC_IntSal.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\MVC_IntSal\obj\Debug\MVC_IntSal.csprojAssemblyReference.cache
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\MVC_IntSal\obj\Debug\MVC_IntSal.IntegracionInventarios.resources
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\MVC_IntSal\obj\Debug\MVC_IntSal.Properties.Resources.resources
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\MVC_IntSal\obj\Debug\MVC_IntSal.csproj.GenerateResource.cache
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\MVC_IntSal\obj\Debug\MVC_IntSal.exe
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\MVC_IntSal\obj\Debug\MVC_IntSal.pdb
