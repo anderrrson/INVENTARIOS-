@@ -54,10 +54,26 @@ namespace CapaDiseno_MovInv.Movimientos
 
         }
 
+        void llenarCombo()
+        {
+
+        }
+
+        void ComboClienteProveedor()
+        {
+
+
+        }
+
         private void Dgv_DetalleMovimiento_SelectionChanged(object sender, EventArgs e)
         {
             int fila = Dgv_DetalleMovimiento.CurrentCell.RowIndex;
             Dgv_DetalleMovimiento.Rows[fila].Selected = true;
+        }
+
+        private void Frm_MovimientosInventarios_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
