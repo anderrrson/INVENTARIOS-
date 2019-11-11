@@ -35,6 +35,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CapaControl_MovInv\bin\Debug\CapaControl_MovInv.dll</HintPath>
     </Reference>
+    <Reference Include="CapaDatos_MovInv">
+      <HintPath>..\CapaControl_MovInv\bin\Debug\CapaDatos_MovInv.dll</HintPath>
+    </Reference>
     <Reference Include="CapaDeDiseno">
       <HintPath>..\..\..\..\..\Navegador\NAV2K19\DLL\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
     </Reference>

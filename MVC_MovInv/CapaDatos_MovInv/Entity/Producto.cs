@@ -10,7 +10,7 @@ namespace CapaDatos_MovInv.Entity
     {
         public int PRODUCTO { get; set; }
         public TipoProducto TIPO_PRODUCTO { get; set; }
-        public string NOMBRE_PRODUCTO { get; set; }
+        public string NOMBRE { get; set; }
         public string DESCRIPCION { get; set; }
         public int ESTADO { get; set; }
     }

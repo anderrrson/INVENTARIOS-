@@ -1,0 +1,12 @@
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDatos_MovInv\bin\Debug\CapaDatos_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDatos_MovInv\bin\Debug\CapaDatos_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDatos_MovInv\obj\Debug\CapaDatos_MovInv.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDatos_MovInv\obj\Debug\CapaDatos_MovInv.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDatos_MovInv\obj\Debug\CapaDatos_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDatos_MovInv\obj\Debug\CapaDatos_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDatos_MovInv\bin\Debug\CapaDatos_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDatos_MovInv\bin\Debug\CapaDatos_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDatos_MovInv\obj\Debug\CapaDatos_MovInv.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDatos_MovInv\obj\Debug\CapaDatos_MovInv.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDatos_MovInv\obj\Debug\CapaDatos_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDatos_MovInv\obj\Debug\CapaDatos_MovInv.pdb
