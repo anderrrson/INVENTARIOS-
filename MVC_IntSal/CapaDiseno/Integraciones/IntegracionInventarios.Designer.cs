@@ -229,6 +229,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(662, 514);
             this.Controls.Add(this.panel1);
+            this.HelpButton = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "IntegracionInventarios";
             this.Text = "IntegracionInventarios";
             this.panel1.ResumeLayout(false);

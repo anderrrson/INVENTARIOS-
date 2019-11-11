@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexion\Conexion.cs" />
+    <Compile Include="Conexion\Transaccion.cs" />
+    <Compile Include="Entity\Bodega.cs" />
+    <Compile Include="Entity\Existencia.cs" />
+    <Compile Include="Entity\Inventario.cs" />
+    <Compile Include="Entity\Producto.cs" />
+    <Compile Include="Entity\Stock.cs" />
+    <Compile Include="Entity\Sucursal.cs" />
+    <Compile Include="Entity\TipoMovimiento.cs" />
+    <Compile Include="Entity\TipoProducto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
