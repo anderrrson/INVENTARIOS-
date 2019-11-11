@@ -44,6 +44,12 @@
   <ItemGroup>
     <Compile Include="Conexion\Conexion.cs" />
     <Compile Include="Conexion\Transaccion.cs" />
+    <Compile Include="Entity\Cliente.cs" />
+    <Compile Include="Entity\Precios.cs" />
+    <Compile Include="Entity\Producto.cs" />
+    <Compile Include="Entity\Proveedor.cs" />
+    <Compile Include="Entity\TipoCliente.cs" />
+    <Compile Include="Entity\TipoProducto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

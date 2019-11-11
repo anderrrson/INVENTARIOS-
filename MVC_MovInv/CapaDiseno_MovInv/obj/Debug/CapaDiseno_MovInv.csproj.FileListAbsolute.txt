@@ -1,29 +1,49 @@
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDiseno_MovInv.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDiseno_MovInv.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDiseno.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeLogica.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDatos.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDatos.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDiseno.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeLogica.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDatos.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csprojAssemblyReference.cache
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.Movimientos.Frm_MovimientosInventarios.resources
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csproj.GenerateResource.cache
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csproj.CopyComplete
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDiseno_MovInv.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDiseno_MovInv.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeLogica.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDatos.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDatos.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDiseno.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeLogica.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDatos.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csprojAssemblyReference.cache
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.Movimientos.Frm_MovimientosInventarios.resources
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csproj.GenerateResource.cache
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csproj.CopyComplete
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\OCOPIAS\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDiseno_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDiseno_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaControl_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDiseno.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeLogica.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\ConsultasInteligentes.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDatos.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDatos.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaLogica_Consultas.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDatos_Consultas.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaControl_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDiseno.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeLogica.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\ConsultasInteligentes.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDatos.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaLogica_Consultas.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDatos_Consultas.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.Movimientos.Frm_MovimientosInventarios.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csproj.GenerateResource.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csproj.CopyComplete
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.Movimientos.Frm_MovimientosInventarios.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csproj.GenerateResource.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDiseno_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDiseno_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaControl_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDatos_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeLogica.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\ConsultasInteligentes.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDatos.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDatos.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaLogica_Consultas.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDatos_Consultas.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaControl_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDatos_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDiseno.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeLogica.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\ConsultasInteligentes.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDeDatos.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaLogica_Consultas.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\bin\Debug\CapaDatos_Consultas.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaDiseno_MovInv\obj\Debug\CapaDiseno_MovInv.csproj.CopyComplete

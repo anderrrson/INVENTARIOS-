@@ -49,7 +49,8 @@ namespace CapaDatos_MovInv.Conexion
             }
             catch (OdbcException ex)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("Se dio un error al procesar la peticion: " + ex.Message, "Error en " +
+                    "consulta de datos.");
                 return null;
             }
             return reader;
