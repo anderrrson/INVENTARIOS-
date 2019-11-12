@@ -1,6 +1,6 @@
 ﻿namespace CapaDiseno.Integraciones
 {
-    partial class IntegracionInventarios
+    partial class Frm_IntegracionInventarios
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
             this.Pnl_Integracion = new System.Windows.Forms.Panel();
             this.Lbl_Integracion = new System.Windows.Forms.Label();
-            this.Txt_CF = new System.Windows.Forms.TextBox();
-            this.Txt_CM = new System.Windows.Forms.TextBox();
             this.Lbl_Totales = new System.Windows.Forms.Label();
             this.Dtp_FechaFin = new System.Windows.Forms.DateTimePicker();
             this.Dtp_FechaInicio = new System.Windows.Forms.DateTimePicker();
@@ -47,27 +44,20 @@
             this.Cantidad_Movimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad_Inicial = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad_Fin = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panel1.SuspendLayout();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.Lbl_CM = new System.Windows.Forms.Label();
+            this.Lbl_CF = new System.Windows.Forms.Label();
             this.Pnl_Integracion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_Integracion)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(86)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.Pnl_Integracion);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(662, 514);
-            this.panel1.TabIndex = 1;
             // 
             // Pnl_Integracion
             // 
             this.Pnl_Integracion.BackColor = System.Drawing.Color.White;
+            this.Pnl_Integracion.Controls.Add(this.Lbl_CF);
+            this.Pnl_Integracion.Controls.Add(this.Lbl_CM);
             this.Pnl_Integracion.Controls.Add(this.Lbl_Integracion);
-            this.Pnl_Integracion.Controls.Add(this.Txt_CF);
-            this.Pnl_Integracion.Controls.Add(this.Txt_CM);
             this.Pnl_Integracion.Controls.Add(this.Lbl_Totales);
             this.Pnl_Integracion.Controls.Add(this.Dtp_FechaFin);
             this.Pnl_Integracion.Controls.Add(this.Dtp_FechaInicio);
@@ -92,24 +82,6 @@
             this.Lbl_Integracion.Size = new System.Drawing.Size(490, 31);
             this.Lbl_Integracion.TabIndex = 12;
             this.Lbl_Integracion.Text = "Integración de Saldos de Inventarios";
-            // 
-            // Txt_CF
-            // 
-            this.Txt_CF.Enabled = false;
-            this.Txt_CF.Location = new System.Drawing.Point(483, 429);
-            this.Txt_CF.Name = "Txt_CF";
-            this.Txt_CF.Size = new System.Drawing.Size(150, 20);
-            this.Txt_CF.TabIndex = 11;
-            this.Txt_CF.Text = "Q.";
-            // 
-            // Txt_CM
-            // 
-            this.Txt_CM.Enabled = false;
-            this.Txt_CM.Location = new System.Drawing.Point(161, 429);
-            this.Txt_CM.Name = "Txt_CM";
-            this.Txt_CM.Size = new System.Drawing.Size(158, 20);
-            this.Txt_CM.TabIndex = 10;
-            this.Txt_CM.Text = "Q.";
             // 
             // Lbl_Totales
             // 
@@ -223,6 +195,38 @@
             this.Cantidad_Fin.HeaderText = "Cantidad_Fin";
             this.Cantidad_Fin.Name = "Cantidad_Fin";
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(86)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.Pnl_Integracion);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(662, 514);
+            this.panel1.TabIndex = 1;
+            // 
+            // Lbl_CM
+            // 
+            this.Lbl_CM.AutoSize = true;
+            this.Lbl_CM.Enabled = false;
+            this.Lbl_CM.Location = new System.Drawing.Point(166, 436);
+            this.Lbl_CM.Name = "Lbl_CM";
+            this.Lbl_CM.Size = new System.Drawing.Size(18, 13);
+            this.Lbl_CM.TabIndex = 13;
+            this.Lbl_CM.Text = "Q.";
+            this.Lbl_CM.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Lbl_CF
+            // 
+            this.Lbl_CF.AutoSize = true;
+            this.Lbl_CF.Enabled = false;
+            this.Lbl_CF.Location = new System.Drawing.Point(492, 436);
+            this.Lbl_CF.Name = "Lbl_CF";
+            this.Lbl_CF.Size = new System.Drawing.Size(18, 13);
+            this.Lbl_CF.TabIndex = 14;
+            this.Lbl_CF.Text = "Q.";
+            this.Lbl_CF.Click += new System.EventHandler(this.Lbl_CF_Click);
+            // 
             // IntegracionInventarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -234,21 +238,18 @@
             this.MinimizeBox = false;
             this.Name = "IntegracionInventarios";
             this.Text = "IntegracionInventarios";
-            this.panel1.ResumeLayout(false);
             this.Pnl_Integracion.ResumeLayout(false);
             this.Pnl_Integracion.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_Integracion)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel Pnl_Integracion;
         private System.Windows.Forms.Label Lbl_Integracion;
-        private System.Windows.Forms.TextBox Txt_CF;
-        private System.Windows.Forms.TextBox Txt_CM;
         private System.Windows.Forms.Label Lbl_Totales;
         private System.Windows.Forms.DateTimePicker Dtp_FechaFin;
         private System.Windows.Forms.DateTimePicker Dtp_FechaInicio;
@@ -263,5 +264,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Movimiento;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Inicial;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Fin;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label Lbl_CM;
+        private System.Windows.Forms.Label Lbl_CF;
     }
 }
