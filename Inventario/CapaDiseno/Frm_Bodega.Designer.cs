@@ -1,4 +1,4 @@
-﻿namespace CapaDiseno
+﻿namespace CapaDisenoInventario
 {
     partial class Frm_Bodega
     {

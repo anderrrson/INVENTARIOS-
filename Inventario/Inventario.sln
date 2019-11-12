@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDiseno", "CapaDiseno\CapaDiseno.csproj", "{63369475-D174-4738-BEB3-6399A9505280}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDisenoInventario", "CapaDiseno\CapaDisenoInventario.csproj", "{63369475-D174-4738-BEB3-6399A9505280}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MODULO", "MODULO\MODULO.csproj", "{B5E7FE56-4BFC-401C-A67F-9006E3E33B27}"
 EndProject

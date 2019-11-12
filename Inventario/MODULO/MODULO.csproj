@@ -33,6 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CapaDatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\TMP\INVENTARIOS-\mdlSeguridad\CapaDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaDiseno, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\TMP\INVENTARIOS-\mdlSeguridad\CapaDiseno.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaLogica">
+      <HintPath>..\..\..\..\Documents\TMP\INVENTARIOS-\mdlSeguridad\CapaLogica.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -80,9 +91,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CapaDiseno\CapaDiseno.csproj">
+    <ProjectReference Include="..\CapaDiseno\CapaDisenoInventario.csproj">
       <Project>{63369475-d174-4738-beb3-6399a9505280}</Project>
-      <Name>CapaDiseno</Name>
+      <Name>CapaDisenoInventario</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

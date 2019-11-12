@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CapaDiseno
+namespace CapaDisenoInventario
 {
     public partial class Frm_Inventario : Form
     {
@@ -12,6 +12,7 @@ namespace CapaDiseno
         public Frm_Inventario(String usuario, String aplicacion)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             this.usuario = usuario;
             this.aplicacion = aplicacion;
             inicio();
@@ -26,11 +27,11 @@ namespace CapaDiseno
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(ColorTranslator.FromHtml("#C05640"));
             navegador1.asignarColorFuente(Color.Black);
-            navegador1.asignarNombreForm("Bodega Producto");
+            navegador1.asignarNombreForm("Inventario");
             //Asociaciones
             navegador1.asignarComboConTabla("Tbl_Producto", "nombre_producto", 1);
             navegador1.asignarComboConTabla("Tbl_Bodega", "nombre", 1);
-            navegador1.asignarComboConTabla("Tbl_Stock", "cantidad", 1);
+            navegador1.asignarComboConTabla("Tbl_Stock", "Kidstock", 0);
             navegador1.asignarComboConTabla("Tbl_Existencia", "cantidad", 1);
 
         }

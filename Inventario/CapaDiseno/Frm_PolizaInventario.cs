@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CapaDiseno
+namespace CapaDisenoInventario
 {
     public partial class Frm_PolizaInventario : Form
     {
@@ -12,6 +12,7 @@ namespace CapaDiseno
         public Frm_PolizaInventario(String usuario, String aplicacion)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             this.usuario = usuario;
             this.aplicacion = aplicacion;
             inicio();
@@ -28,7 +29,7 @@ namespace CapaDiseno
             navegador1.asignarColorFuente(Color.Black);
             navegador1.asignarNombreForm("Póliza Inventario");
             //Asociaciones
-            navegador1.asignarComboConTabla("Tbl_Poliza", "cantidad_facturadetalle", 1);
+            navegador1.asignarComboConTabla("Tbl_FacturaDetalle", "cantidad_facturadetalle", 1);
         }
 
         private void Frm_PolizaInventario_Load(object sender, EventArgs e)

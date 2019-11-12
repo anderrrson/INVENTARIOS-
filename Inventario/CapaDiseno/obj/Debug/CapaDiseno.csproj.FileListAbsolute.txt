@@ -52,3 +52,4 @@ C:\Users\CRISTHIAN\source\repos\Inventario\CapaDiseno\obj\Debug\CapaDiseno.Frm_H
 C:\Users\CRISTHIAN\source\repos\Inventario\CapaDiseno\bin\Debug\aa-ER\CapaDiseno.resources.dll
 C:\Users\CRISTHIAN\source\repos\Inventario\CapaDiseno\obj\Debug\CapaDiseno.Frm_Bodega.aa-ER.resources
 C:\Users\CRISTHIAN\source\repos\Inventario\CapaDiseno\obj\Debug\aa-ER\CapaDiseno.resources.dll
+C:\Users\CRISTHIAN\source\repos\Inventario\CapaDiseno\obj\Debug\CapaDiseno.csprojAssemblyReference.cache

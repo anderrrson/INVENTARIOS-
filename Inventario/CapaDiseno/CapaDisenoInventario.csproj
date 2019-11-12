@@ -7,8 +7,8 @@
     <ProjectGuid>{63369475-D174-4738-BEB3-6399A9505280}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CapaDiseno</RootNamespace>
-    <AssemblyName>CapaDiseno</AssemblyName>
+    <RootNamespace>CapaDisenoInventario</RootNamespace>
+    <AssemblyName>CapaDisenoInventario</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

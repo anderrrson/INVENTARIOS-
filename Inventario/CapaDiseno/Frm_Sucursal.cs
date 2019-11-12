@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CapaDiseno
+namespace CapaDisenoInventario
 {
     public partial class Frm_Sucursal : Form
     {
@@ -12,6 +12,7 @@ namespace CapaDiseno
         public Frm_Sucursal(String usuario, String aplicacion)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             this.usuario = usuario;
             this.aplicacion = aplicacion;
             inicio();

@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CapaDiseno
+namespace CapaDisenoInventario
 {
     public partial class Frm_Marca : Form
     {
@@ -12,6 +12,7 @@ namespace CapaDiseno
         public Frm_Marca(String usuario, String aplicacion)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             this.usuario = usuario;
             this.aplicacion = aplicacion;
             inicio();
@@ -22,7 +23,7 @@ namespace CapaDiseno
             navegador1.asignarTabla("Tbl_Marca");
             String[] alias = { "Código", "Nombre", "País Origen", "Estado" };
             navegador1.asignarAlias(alias);
-            navegador1.asignarAyuda("1");
+            navegador1.asignarAyuda("11");
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(ColorTranslator.FromHtml("#C05640"));
             navegador1.asignarColorFuente(Color.Black);

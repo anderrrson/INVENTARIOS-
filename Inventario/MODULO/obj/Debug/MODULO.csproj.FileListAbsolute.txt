@@ -25,7 +25,6 @@ C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaDeDiseno.dll
 C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaDeLogica.dll
 C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaDatos.dll
 C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaDeDatos.dll
-C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaDiseno.pdb
 C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaDeDiseno.pdb
 C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaDeLogica.pdb
 C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaDeDatos.pdb
@@ -35,5 +34,8 @@ C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\obj\Debug\MODULO.csproj.Genera
 C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\obj\Debug\MODULO.csproj.CopyComplete
 C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\obj\Debug\MODULO.exe
 C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\obj\Debug\MODULO.pdb
-C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\aa-ER\CapaDiseno.resources.dll
 C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\obj\Debug\MODULO.Frm_MdiInventario.resources
+C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaDisenoInventario.dll
+C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaLogica.dll
+C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\CapaDisenoInventario.pdb
+C:\Users\CRISTHIAN\source\repos\Inventario\MODULO\bin\Debug\aa-ER\CapaDisenoInventario.resources.dll

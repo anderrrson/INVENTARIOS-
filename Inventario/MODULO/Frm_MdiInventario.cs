@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
+using CapaDatos;
+using CapaLogica;
 using CapaDiseno;
+using CapaDisenoInventario;
 
 namespace MODULO
 {
@@ -11,62 +14,6 @@ namespace MODULO
         public Frm_MdiInventario()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-        }
-        
-        private void button5_Click(object sender, EventArgs e)
-        {
-        }
-        
-        private void button7_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
         }
 
         private void bodegaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -92,13 +39,7 @@ namespace MODULO
             Frm_Inventario frm_ProductoBodega = new Frm_Inventario(usuario, aplicacion);
             frm_ProductoBodega.Show();
         }
-
-        private void existenciaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Frm_Existencia frm_Existencia = new Frm_Existencia(usuario, aplicacion);
-            frm_Existencia.Show();
-        }
-
+        
         private void tipoProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_TipoProducto tipoProducto = new Frm_TipoProducto(usuario, aplicacion);
@@ -110,13 +51,7 @@ namespace MODULO
             Frm_Producto frm_Cliente = new Frm_Producto(usuario, aplicacion);
             frm_Cliente.Show();
         }
-
-        private void productoDetalleToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Frm_ProdDetalle frm_ProdDetalle = new Frm_ProdDetalle(usuario, aplicacion);
-            frm_ProdDetalle.Show();
-        }
-
+        
         private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_Marca frm_Marca = new Frm_Marca(usuario, aplicacion);
@@ -135,22 +70,31 @@ namespace MODULO
             frm_Ubicacion.Show();
         }
 
-        private void movimientoEncabezadoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Frm_MdiInventario_Load(object sender, EventArgs e)
         {
-            Frm_MovInventario frm_MovInventario = new Frm_MovInventario(usuario, aplicacion);
-            frm_MovInventario.Show();
+            frm_login login = new frm_login();
+            login.ShowDialog();
+            usuario = login.obtenerNombreUsuario();
         }
 
-        private void movimientoDetalleToolStripMenuItem_Click(object sender, EventArgs e)
+        private void polizaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_HisInventario frm_HisInventario = new Frm_HisInventario(usuario, aplicacion);
-            frm_HisInventario.Show();
+
         }
 
-        private void hToolStripMenuItem_Click(object sender, EventArgs e)
+        private void trasladoDeProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_PolizaInventario frm_Poliza = new Frm_PolizaInventario(usuario, aplicacion);
-            frm_Poliza.Show();
+
+        }
+
+        private void saldosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void muestreoAuditorioaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
