@@ -11,6 +11,6 @@ namespace CapaDatos.Entity
         public int KIDSTOCK { get; set; }
         public int CANTIDADMAXIMA { get; set; }
         public int CANTIDADMINIMA { get; set; }
-        public int estado { get; set; }
+        public int ESTADO { get; set; }
     }
 }

@@ -47,6 +47,7 @@
     <Compile Include="Entity\Bodega.cs" />
     <Compile Include="Entity\Cliente.cs" />
     <Compile Include="Entity\Existencia.cs" />
+    <Compile Include="Entity\Integracion.cs" />
     <Compile Include="Entity\Inventario.cs" />
     <Compile Include="Entity\MovimientoDetalle.cs" />
     <Compile Include="Entity\MovimientoEncabezado.cs" />

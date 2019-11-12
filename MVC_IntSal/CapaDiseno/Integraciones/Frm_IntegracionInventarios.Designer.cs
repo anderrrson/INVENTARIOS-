@@ -29,12 +29,14 @@
         private void InitializeComponent()
         {
             this.Pnl_Integracion = new System.Windows.Forms.Panel();
+            this.Lbl_CF = new System.Windows.Forms.Label();
+            this.Lbl_CM = new System.Windows.Forms.Label();
             this.Lbl_Integracion = new System.Windows.Forms.Label();
             this.Lbl_Totales = new System.Windows.Forms.Label();
             this.Dtp_FechaFin = new System.Windows.Forms.DateTimePicker();
             this.Dtp_FechaInicio = new System.Windows.Forms.DateTimePicker();
-            this.Cbo_Producto = new System.Windows.Forms.ComboBox();
-            this.Cbo_Codigo = new System.Windows.Forms.ComboBox();
+            this.Cmb_Producto = new System.Windows.Forms.ComboBox();
+            this.Cmb_Codigo = new System.Windows.Forms.ComboBox();
             this.Lbl_FechaFin = new System.Windows.Forms.Label();
             this.Lbl_FechaInicio = new System.Windows.Forms.Label();
             this.Lbl_Producto = new System.Windows.Forms.Label();
@@ -45,8 +47,6 @@
             this.Cantidad_Inicial = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad_Fin = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Lbl_CM = new System.Windows.Forms.Label();
-            this.Lbl_CF = new System.Windows.Forms.Label();
             this.Pnl_Integracion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_Integracion)).BeginInit();
             this.panel1.SuspendLayout();
@@ -61,8 +61,8 @@
             this.Pnl_Integracion.Controls.Add(this.Lbl_Totales);
             this.Pnl_Integracion.Controls.Add(this.Dtp_FechaFin);
             this.Pnl_Integracion.Controls.Add(this.Dtp_FechaInicio);
-            this.Pnl_Integracion.Controls.Add(this.Cbo_Producto);
-            this.Pnl_Integracion.Controls.Add(this.Cbo_Codigo);
+            this.Pnl_Integracion.Controls.Add(this.Cmb_Producto);
+            this.Pnl_Integracion.Controls.Add(this.Cmb_Codigo);
             this.Pnl_Integracion.Controls.Add(this.Lbl_FechaFin);
             this.Pnl_Integracion.Controls.Add(this.Lbl_FechaInicio);
             this.Pnl_Integracion.Controls.Add(this.Lbl_Producto);
@@ -70,8 +70,30 @@
             this.Pnl_Integracion.Controls.Add(this.Dgv_Integracion);
             this.Pnl_Integracion.Location = new System.Drawing.Point(12, 12);
             this.Pnl_Integracion.Name = "Pnl_Integracion";
-            this.Pnl_Integracion.Size = new System.Drawing.Size(636, 484);
+            this.Pnl_Integracion.Size = new System.Drawing.Size(636, 486);
             this.Pnl_Integracion.TabIndex = 0;
+            // 
+            // Lbl_CF
+            // 
+            this.Lbl_CF.AutoSize = true;
+            this.Lbl_CF.Enabled = false;
+            this.Lbl_CF.Location = new System.Drawing.Point(492, 436);
+            this.Lbl_CF.Name = "Lbl_CF";
+            this.Lbl_CF.Size = new System.Drawing.Size(18, 13);
+            this.Lbl_CF.TabIndex = 14;
+            this.Lbl_CF.Text = "Q.";
+            this.Lbl_CF.Click += new System.EventHandler(this.Lbl_CF_Click);
+            // 
+            // Lbl_CM
+            // 
+            this.Lbl_CM.AutoSize = true;
+            this.Lbl_CM.Enabled = false;
+            this.Lbl_CM.Location = new System.Drawing.Point(166, 436);
+            this.Lbl_CM.Name = "Lbl_CM";
+            this.Lbl_CM.Size = new System.Drawing.Size(18, 13);
+            this.Lbl_CM.TabIndex = 13;
+            this.Lbl_CM.Text = "Q.";
+            this.Lbl_CM.Click += new System.EventHandler(this.label1_Click);
             // 
             // Lbl_Integracion
             // 
@@ -95,7 +117,7 @@
             // Dtp_FechaFin
             // 
             this.Dtp_FechaFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.Dtp_FechaFin.Location = new System.Drawing.Point(468, 131);
+            this.Dtp_FechaFin.Location = new System.Drawing.Point(467, 131);
             this.Dtp_FechaFin.Name = "Dtp_FechaFin";
             this.Dtp_FechaFin.Size = new System.Drawing.Size(101, 20);
             this.Dtp_FechaFin.TabIndex = 8;
@@ -103,26 +125,33 @@
             // Dtp_FechaInicio
             // 
             this.Dtp_FechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.Dtp_FechaInicio.Location = new System.Drawing.Point(319, 130);
+            this.Dtp_FechaInicio.Location = new System.Drawing.Point(318, 130);
             this.Dtp_FechaInicio.Name = "Dtp_FechaInicio";
             this.Dtp_FechaInicio.Size = new System.Drawing.Size(100, 20);
             this.Dtp_FechaInicio.TabIndex = 7;
             // 
-            // Cbo_Producto
+            // Cmb_Producto
             // 
-            this.Cbo_Producto.FormattingEnabled = true;
-            this.Cbo_Producto.Location = new System.Drawing.Point(148, 130);
-            this.Cbo_Producto.Name = "Cbo_Producto";
-            this.Cbo_Producto.Size = new System.Drawing.Size(126, 21);
-            this.Cbo_Producto.TabIndex = 6;
+            this.Cmb_Producto.FormattingEnabled = true;
+            this.Cmb_Producto.Items.AddRange(new object[] {
+            "Sabanas",
+            "Velas",
+            "Mesas",
+            "Sillas"});
+            this.Cmb_Producto.Location = new System.Drawing.Point(147, 130);
+            this.Cmb_Producto.Name = "Cmb_Producto";
+            this.Cmb_Producto.Size = new System.Drawing.Size(126, 21);
+            this.Cmb_Producto.TabIndex = 6;
+            this.Cmb_Producto.SelectedIndexChanged += new System.EventHandler(this.Cmb_Producto_SelectedIndexChanged);
             // 
-            // Cbo_Codigo
+            // Cmb_Codigo
             // 
-            this.Cbo_Codigo.FormattingEnabled = true;
-            this.Cbo_Codigo.Location = new System.Drawing.Point(34, 130);
-            this.Cbo_Codigo.Name = "Cbo_Codigo";
-            this.Cbo_Codigo.Size = new System.Drawing.Size(71, 21);
-            this.Cbo_Codigo.TabIndex = 5;
+            this.Cmb_Codigo.FormattingEnabled = true;
+            this.Cmb_Codigo.Location = new System.Drawing.Point(33, 130);
+            this.Cmb_Codigo.Name = "Cmb_Codigo";
+            this.Cmb_Codigo.Size = new System.Drawing.Size(71, 21);
+            this.Cmb_Codigo.TabIndex = 5;
+            this.Cmb_Codigo.SelectedIndexChanged += new System.EventHandler(this.Cmb_Codigo_SelectedIndexChanged);
             // 
             // Lbl_FechaFin
             // 
@@ -205,29 +234,7 @@
             this.panel1.Size = new System.Drawing.Size(662, 514);
             this.panel1.TabIndex = 1;
             // 
-            // Lbl_CM
-            // 
-            this.Lbl_CM.AutoSize = true;
-            this.Lbl_CM.Enabled = false;
-            this.Lbl_CM.Location = new System.Drawing.Point(166, 436);
-            this.Lbl_CM.Name = "Lbl_CM";
-            this.Lbl_CM.Size = new System.Drawing.Size(18, 13);
-            this.Lbl_CM.TabIndex = 13;
-            this.Lbl_CM.Text = "Q.";
-            this.Lbl_CM.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // Lbl_CF
-            // 
-            this.Lbl_CF.AutoSize = true;
-            this.Lbl_CF.Enabled = false;
-            this.Lbl_CF.Location = new System.Drawing.Point(492, 436);
-            this.Lbl_CF.Name = "Lbl_CF";
-            this.Lbl_CF.Size = new System.Drawing.Size(18, 13);
-            this.Lbl_CF.TabIndex = 14;
-            this.Lbl_CF.Text = "Q.";
-            this.Lbl_CF.Click += new System.EventHandler(this.Lbl_CF_Click);
-            // 
-            // IntegracionInventarios
+            // Frm_IntegracionInventarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -236,7 +243,7 @@
             this.HelpButton = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "IntegracionInventarios";
+            this.Name = "Frm_IntegracionInventarios";
             this.Text = "IntegracionInventarios";
             this.Pnl_Integracion.ResumeLayout(false);
             this.Pnl_Integracion.PerformLayout();
@@ -253,8 +260,8 @@
         private System.Windows.Forms.Label Lbl_Totales;
         private System.Windows.Forms.DateTimePicker Dtp_FechaFin;
         private System.Windows.Forms.DateTimePicker Dtp_FechaInicio;
-        private System.Windows.Forms.ComboBox Cbo_Producto;
-        private System.Windows.Forms.ComboBox Cbo_Codigo;
+        private System.Windows.Forms.ComboBox Cmb_Producto;
+        private System.Windows.Forms.ComboBox Cmb_Codigo;
         private System.Windows.Forms.Label Lbl_FechaFin;
         private System.Windows.Forms.Label Lbl_FechaInicio;
         private System.Windows.Forms.Label Lbl_Producto;

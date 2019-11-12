@@ -8,7 +8,7 @@ namespace CapaDatos.Entity
 {
     public class Producto
     {
-        public string KIDPOPRODUCTO { get; set; }
+        public string KIDPRODUCTO { get; set; }
         public TipoProducto KIDIPOPRODUCTO { get; set; }
         public string NOMBRE_PRODUCTO { get; set; }
         public string DESCRIPCION_PRODUCTO { get; set; }

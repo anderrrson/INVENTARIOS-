@@ -8,3 +8,5 @@ C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sis
 C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\CapaDiseno\obj\Debug\CapaDiseno.csproj.CopyComplete
 C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\CapaDiseno\obj\Debug\CapaDiseno.csproj.GenerateResource.cache
 C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\CapaDiseno\obj\Debug\CapaDiseno.Integraciones.Frm_IntegracionInventarios.resources
+C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\CapaDiseno\bin\Debug\CapaDatos.dll
+C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\CapaDiseno\bin\Debug\CapaDatos.pdb

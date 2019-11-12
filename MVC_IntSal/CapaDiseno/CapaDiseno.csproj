@@ -31,8 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CapaControl">
+    <Reference Include="CapaControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CapaControl\bin\Debug\CapaControl.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaDatos">
+      <HintPath>..\CapaDatos\bin\Debug\CapaDatos.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

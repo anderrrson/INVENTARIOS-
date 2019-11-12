@@ -8,9 +8,9 @@ namespace CapaDatos.Entity
 {
     public class TipoMovimiento
     {
-        public int KidtiposComprobantes { get; set; }
-        public string NombreComprobante { get; set; }
-        public string detalle { get; set; }
-        public int estado { get; set; }
+        public int KIDTIPOSCOMPROBANTES { get; set; }
+        public string NOMBRECOMPROBANTE { get; set; }
+        public string DETALLE { get; set; }
+        public int ESTADO { get; set; }
     }
 }
