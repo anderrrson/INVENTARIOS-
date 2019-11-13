@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaControl_MovInv", "CapaC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos_MovInv", "CapaDatos_MovInv\CapaDatos_MovInv.csproj", "{30822CBE-27D4-48B5-9F06-27B0C4DAFEF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDI", "MDI\MDI.csproj", "{18521A55-872B-4E75-8796-D1C6686331BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{30822CBE-27D4-48B5-9F06-27B0C4DAFEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30822CBE-27D4-48B5-9F06-27B0C4DAFEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30822CBE-27D4-48B5-9F06-27B0C4DAFEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18521A55-872B-4E75-8796-D1C6686331BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18521A55-872B-4E75-8796-D1C6686331BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18521A55-872B-4E75-8796-D1C6686331BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18521A55-872B-4E75-8796-D1C6686331BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

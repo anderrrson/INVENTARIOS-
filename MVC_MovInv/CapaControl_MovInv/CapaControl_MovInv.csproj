@@ -46,8 +46,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\ClienteControl.cs" />
+    <Compile Include="Control\ExistenciaControl.cs" />
+    <Compile Include="Control\FacturaControl.cs" />
+    <Compile Include="Control\MovimientoDetalleControl.cs" />
+    <Compile Include="Control\MovimientoEncabezadoControl.cs" />
+    <Compile Include="Control\OrdenCompraControl.cs" />
     <Compile Include="Control\ProductoControl.cs" />
     <Compile Include="Control\ProveedorControl.cs" />
+    <Compile Include="Control\TipoMovimientoControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

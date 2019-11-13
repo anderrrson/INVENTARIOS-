@@ -12,6 +12,35 @@ namespace CapaControl_MovInv.Control
     {
         private Transaccion transaccion = new Transaccion();
 
+        public Producto obtenerProductoById(int id)
+        {
+            Producto producto = new Producto();
+
+            String sComando = String.Format("Select KidProducto,  nombre_producto,  estado from Tbl_Producto " +
+                          " where KidProducto = {0} and estado <> 0; ", id);
+            try
+            {
+                OdbcDataReader reader = transaccion.ConsultarDatos(sComando);
+
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        producto.PRODUCTO = reader.GetInt32(0);
+                        producto.NOMBRE = reader.GetString(1);
+                        producto.ESTADO = reader.GetInt32(2);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al obtener el dato: " + ex, "Error en consulta a Base de Datos");
+                return null;
+            }
+
+            return producto;
+        }
+
         public List<Producto> obtenerAllProducto()
         {
             List<Producto> productoList = new List<Producto>();
