@@ -1,0 +1,59 @@
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.MDI_INVETARIO.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.frm_productosInventario.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.frm_tipoproducto.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.Properties.Resources.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.csproj.GenerateResource.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\MDI_INVENTARIO.exe.config
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\MDI_INVENTARIO.exe
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\MDI_INVENTARIO.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeDiseno.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDiseno_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeLogica.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\ConsultasInteligentes.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDatos.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeDatos.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaLogica_Consultas.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDatos_Consultas.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeDiseno.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDiseno_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeLogica.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\ConsultasInteligentes.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeDatos.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaLogica_Consultas.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDatos_Consultas.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.csproj.CopyComplete
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.exe
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\MDI_INVENTARIO.exe.config
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\MDI_INVENTARIO.exe
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\MDI_INVENTARIO.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDiseno_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeLogica.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\ConsultasInteligentes.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDatos.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeDatos.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaLogica_Consultas.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDatos_Consultas.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeDiseno.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDiseno_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeLogica.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\ConsultasInteligentes.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDeDatos.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaLogica_Consultas.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDatos_Consultas.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.MDI_INVETARIO.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.frm_productosInventario.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.frm_tipoproducto.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.Properties.Resources.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.csproj.GenerateResource.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.csproj.CopyComplete
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.exe
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\obj\Debug\MDI_INVENTARIO.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaControl_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDatos_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaControl_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MDI_INVENTARIO\MDI_INVENTARIO\bin\Debug\CapaDatos_MovInv.pdb
