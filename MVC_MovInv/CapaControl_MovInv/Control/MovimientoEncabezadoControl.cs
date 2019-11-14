@@ -54,7 +54,7 @@ namespace CapaControl_MovInv.Control
             FacturaControl facturaControl = new FacturaControl();
             ClienteControl clienteControl = new ClienteControl();
 
-            String sComando = String.Format("Select KidMovimientoEncabezado, concepto, " +
+            String sComando = String.Format("Select KidMovimientoEncabezado, concepto_movimientoencabezado, " +
                 "KidTipoMovimiento, KidProveedor, KidOrdenCompraEncabezado, KidClientes, KidFacturaEncabezado, " +
                 "estado from Tbl_MovimientoEncabezado where KidMovimientoEncabezado = {0};", id);
 
@@ -95,7 +95,7 @@ namespace CapaControl_MovInv.Control
             FacturaControl facturaControl = new FacturaControl();
             ClienteControl clienteControl = new ClienteControl();
 
-            String sComando = String.Format("Select KidMovimientoEncabezado, concepto, " +
+            String sComando = String.Format("Select KidMovimientoEncabezado, concepto_movimientoencabezado, " +
                 "KidTipoMovimiento, KidProveedor, KidOrdenCompraEncabezado, KidClientes, KidFacturaEncabezado, " +
                 "estado from Tbl_MovimientoEncabezado;");
 
