@@ -1,5 +1,0 @@
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\CapaDatos\bin\Debug\CapaDatos.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\CapaDatos\bin\Debug\CapaDatos.pdb
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\CapaDatos\obj\Debug\CapaDatos.dll
-C:\Users\Conny\Documents\Carrera U\Ingenieria\8. Octavo Semestre\Analisis de Sistemas II\GITHUB TRABAJO\INVG\INVENTARIOS-\MVC_IntSal\CapaDatos\obj\Debug\CapaDatos.pdb
