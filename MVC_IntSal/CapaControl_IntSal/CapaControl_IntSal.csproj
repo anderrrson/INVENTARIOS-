@@ -31,8 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CapaDatos_IntSal, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="CapaDatos_IntSal">
       <HintPath>..\CapaDatos_IntSal\bin\Debug\CapaDatos_IntSal.dll</HintPath>
     </Reference>
     <Reference Include="System" />

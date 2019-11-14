@@ -1,0 +1,18 @@
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaControl_MovInv\bin\Debug\CapaControl_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaControl_MovInv\bin\Debug\CapaControl_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaControl_MovInv\obj\Debug\CapaControl_MovInv.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaControl_MovInv\obj\Debug\CapaControl_MovInv.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaControl_MovInv\obj\Debug\CapaControl_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaControl_MovInv\obj\Debug\CapaControl_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaControl_MovInv\bin\Debug\CapaDatos_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaControl_MovInv\bin\Debug\CapaDatos_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\Inventarios Conny\INVENTARIOS-\MVC_MovInv\CapaControl_MovInv\obj\Debug\CapaControl_MovInv.csproj.CopyComplete
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaControl_MovInv\bin\Debug\CapaControl_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaControl_MovInv\bin\Debug\CapaControl_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaControl_MovInv\bin\Debug\CapaDatos_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaControl_MovInv\bin\Debug\CapaDatos_MovInv.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaControl_MovInv\obj\Debug\CapaControl_MovInv.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaControl_MovInv\obj\Debug\CapaControl_MovInv.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaControl_MovInv\obj\Debug\CapaControl_MovInv.csproj.CopyComplete
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaControl_MovInv\obj\Debug\CapaControl_MovInv.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Inventarios\actualizacion\MVC_MovInv\CapaControl_MovInv\obj\Debug\CapaControl_MovInv.pdb
